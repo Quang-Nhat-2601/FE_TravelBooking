@@ -1,0 +1,130 @@
+:root {
+    --header-height: 10vh;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: var(--header-height);
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header .logo-container img:first-child {
+    padding-right: 12px;
+}
+
+.search-bar-container {
+    display: flex;
+    width: 450px;
+    border: 1px solid #ddd;
+    padding: 8px 8px 5px 8px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.search-bar-container img {
+    width: 32px;
+    padding-right: 8px;
+}
+
+.searchbox-container {
+    display: inline-block;
+    font-size: 15px;
+    flex: 1;
+}
+
+.searchbox-container input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: rgb(26, 26, 26);
+    background-color: initial;
+}
+
+.menu {
+    height: var(--header-height);
+    font-size: 16px;
+}
+
+.main-menu {
+    margin-bottom: 0;
+    display: flex;
+    height: 100%;
+}
+
+.main-menu-item {
+    display: flex;
+    position: relative;
+    float: left;
+    padding: 0 12px;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu-item:hover {
+    background-color: #ddd;
+}
+
+.sub-menu {
+    display: none;
+    background-color: #fff;
+    z-index: 4000;
+    padding-left: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-menu-item:hover .sub-menu{
+    display: block;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+}
+
+.sub-menu li {
+    height: 36px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-menu li:hover {
+    background-color: darkgrey;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    margin-top: var(--header-height);
+}
+
+.introduction img {
+    width: 60%;
+    height: 80vh;
+}
+
+.introduction-text {
+    width: 40%;
+    float:right;
+    padding: 8px 16px;
+}
+
+.introduction-text h1 {
+    background-color: #333;
+    color:greenyellow;
+}
+
+.introduction-text h1, h5 {
+    text-align: center;
+}
