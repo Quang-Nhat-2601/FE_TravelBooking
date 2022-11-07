@@ -178,6 +178,7 @@
 }
 
 .content {
+
 }
 
 .content-item {
@@ -233,7 +234,7 @@
 .subscribe__email
 {   
 
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email3.png");
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
     
     height: 355px;
     background-position: center;
