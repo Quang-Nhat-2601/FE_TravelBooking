@@ -5,7 +5,10 @@
 .app {
   position: relative;
   max-width: 1700px;
-  height: 3000px;
+  height: 1700px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -223,8 +226,8 @@
 .footer {
   margin-top: 500px;
   width: 100%;
-  height: 600px;
-  background-color: black;
+  height: 750px;
+  background-color: #333333;
 }
 
 .login {
@@ -233,14 +236,16 @@
 
 .subscribe__email
 {   
-
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
-    
-    height: 355px;
-    background-position: center;
+    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
+    /*hinh cu tui add bi loi mat*/
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+   
+    height: 357px;
+    width: 100%;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+ 
  }
 
 
@@ -250,29 +255,15 @@
     width: 700px;
     position: absolute;
     color: white;
-
-    margin-left: 420px;
-    margin-top: 60px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .form__emailsubscription--bottom
- {   
-    padding: 10px;
-    width: 700px;
-    position: absolute;
-    color: white;
-
-    margin-left: 420px;
-    margin-top: 200px;
+   
+    margin-left: 28.5%;
+    margin-top: 45px;
 
     display: flex;
     justify-content: center;
     align-items: center;
  }
+
 
  .email__header
  {
@@ -287,6 +278,8 @@
     height: 50px;
     padding: 10px;
     border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 30px;
  }
 
  .button__subscribe--green
@@ -299,7 +292,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 100px;
 
     cursor: pointer ;
  }
 
+ .footer__webinformation
+ {
+
+ }
+ 
+ .table__webinformation
+ {
+    display: block;
+    width: 500px;
+    border:solid white 3px;
+    color:white;
+    padding: 10px;
+    margin-top:30px;
+    margin-left: 40px;
+ }
+
+ .box__companyicon
+ {
+  background-color: white; 
+  height:70px; 
+  width: 180px; 
+  border-radius: 5px;
+ }
