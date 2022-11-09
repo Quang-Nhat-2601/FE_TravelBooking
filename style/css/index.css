@@ -4,7 +4,13 @@
 
 .app {
   position: relative;
-  width: 100%;
+  max-width: 1700px;
+
+  height: 1700px;
+
+  margin-left: auto;
+
+  margin-right: auto;
 }
 
 .header {
@@ -176,8 +182,6 @@
     0px -2px 0 #333;
 }
 
-.content {
-}
 
 .content-item {
   padding-top: 60px;
@@ -224,11 +228,223 @@
 }
 
 .footer {
+  margin-top: 500px;
   width: 100%;
-  height: 200px;
-  background-color: darkorange;
+
+
+  height: 600px;
+
+
+  height: 860px;
+  /*background-color: #333333;*/
+  background-color: black;
 }
 
 .login {
-  display: none;
+  display: block;
 }
+
+
+.subscribe__email
+{   
+
+    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
+    /*hinh cu tui add bi loi mat*/
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+   
+
+
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
+
+    height: 355px;
+    background-position: center;
+    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
+    /*hinh cu tui add bi loi mat*/
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+
+    height: 400px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+
+ }
+
+
+ .form__emailsubscription
+ {   
+    padding: 10px;
+    width: 700px;
+    position: absolute;
+    color: white;
+
+    margin-left: 420px;
+    margin-top: 60px;
+
+   
+    margin-left: 28.5%;
+    margin-top: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .email__header
+ {
+    font-size: 50px;
+ }
+ input[type = "text"].emailtype
+ {
+    border: transparent;
+    font-size: 13px;
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 30px;
+ }
+
+ .button__subscribe--green
+ {
+    height: 50px;
+    width: 120px;
+    border-radius: 3px;
+    background-color: #04AA6D;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+
+    cursor: pointer ;
+ }
+
+ .footer__webinformation
+ {
+    height: 420px;
+ }
+
+
+ .table__webinformation
+ {  
+    color:white;
+    display: block;
+    width: 500px;
+
+   
+    padding: 10px;
+    margin-top:30px;
+    margin-left: 56px;
+ }
+
+ .table__webinformationsub
+ {  
+    float: left;
+    width: 900px;
+    padding: 20px;
+    color:white;
+
+
+    margin-left: 30px;
+    margin-top:45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .box__companyicon
+ {
+  background-color: white; 
+  height:70px; 
+  width: 180px; 
+
+  border-radius: 5px;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 7px;
+  height: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Google */
+.fa-google {
+  background: red;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.line__division {
+
+  width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  border: 0.5px gray solid;
+  color: gray;
+  border-collapse: collapse;
+}
+
+
+.footer__bottomcredits
+{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
