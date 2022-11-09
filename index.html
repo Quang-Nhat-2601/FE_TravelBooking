@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,18 +21,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
 </head>
-
 <script>
     $(document).ready(function () {
         $(".login").hide()
-
         $("#signin-option").click(function () {
             console.log("signin")
             $(".login").show()
         });
     });
 </script>
-
 <body>
     <div class="app">
         <div class="header">
@@ -42,23 +38,19 @@
                     <img src="./style/images/logo_link.png" alt="" width="162px">
                 </a>
             </div>
-
             <div class="search-bar-container">
                 <img src="./style/images/Search_46px.png" alt="">
                 <div class="input-container searchbox-container">
                     <input class="fw-5" type="text" name="search-header" id="" placeholder="Your Favourite Destination">
                 </div>
             </div>
-
             <div class="menu">
                 <ul class="main-menu">
                     <li class="main-menu-item">
                         <a href="" class="fw-5">TOP 5</a>
                     </li>
-
                     <li class="main-menu-item">
                         <a href="" class="fw-5">WHERE</a>
-
                         <ul class="sub-menu">
                             <li>ASIA</li>
                             <li>EUROPE</li>
@@ -67,13 +59,276 @@
                             <li>AUSTRALIA</li>
                         </ul>
                     </li>
-
                     <li class="main-menu-item">
                         <a href="/aboutUs.html" class="fw-5">ABOUT US</a>
                     </li>
-
                     <li class="main-menu-item">
                         <a href="" class="fw-5">ACCOUNT</a>
 
                         <ul class="sub-menu">
+                            <li id="signin-option">SIGN-IN</li>
+                            <li>SIGN-UP</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide slider" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block " src="./style/images/vietnam_slider.jpg" alt="First slide">
+                    <div class="rating-container">
+                        <p class="rating-score">4.9</p>
+                        <img src="./style/images/icons8_star_96px.png" alt="">
+                    </div>
+                    <!-- SLIDER TOUR DESCRIPTION -->
+
+                    <div class="slider-detail">
+                        <h1 class="place-name">VIETNAM</h1>
+                        <p class="place-description">Phong cảnh hữu tình, Vẻ đẹp nên thơ</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block" src="./style/images/France_slider.jpg" alt="Second slide">
+                    <div class="rating-container">
+                        <p class="rating-score">4.7</p>
+                        <img src="./style/images/icons8_star_96px.png" alt="">
+                    </div>
+                    <!-- SLIDER TOUR DESCRIPTION -->
+                    <div class="slider-detail">
+                        <h1 class="place-name">FRANCE</h1>
+                        <p class="place-description">Paysages charmants, Beauté poétique</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block" src="./style/images/Norway_slider.jpg" alt="Third slide">
+                    <div class="rating-container">
+                        <p class="rating-score">4.8</p>
+                        <img src="./style/images/icons8_star_96px.png" alt="">
+                    </div>
+                    <!-- SLIDER TOUR DESCRIPTION -->
+                    <div class="slider-detail">
+                        <h1 class="place-name">NORWAY</h1>
+                        <p class="place-description">Sjarmerende natur, poetisk skjønnhet</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block" src="./style/images/Hungary_slider.jpg" alt="Fourth slide">
+                    <div class="rating-container">
+                        <p class="rating-score">4.6</p>
+                        <img src="./style/images/icons8_star_96px.png" alt="">
+                    </div>
+                    <!-- SLIDER TOUR DESCRIPTION -->
+                    <div class="slider-detail">
+                        <h1 class="place-name">HUNGARY</h1>
+                        <p class="place-description">Bájos táj, költői szépség</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block" src="./style/images/Dubai_slider.png" alt="Fifth slide">
+                    <div class="rating-container">
+                        <p class="rating-score">5</p>
+                        <img src="./style/images/icons8_star_96px.png" alt="">
+                    </div>
+                    <!-- SLIDER TOUR DESCRIPTION -->
+                    <div class="slider-detail">
+                        <h1 class="place-name">DUBAI</h1>
+                        <p class="place-description">مشهد ساحر ، جمال شعري</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="content-item">
+                <div class="best-tour">
+                    <h1 class="content-header">
+                        BEST TOUR OF MONTH
+                    </h1>
+
+                    <h4 class="content-subheader">
+                        This is the short description of Best tour of month!
+                    </h4>
+
+                    <div class="list-best-tour row">
+                        <div class="tour-item-container col">
+
+                        </div>
+
+                        <div class="tour-item-container col">
+
+                        </div>
+
+                        <div class="tour-item-container col">
+
+                        </div>
+
+                        <div class="tour-item-container col">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <div class="suggest-where-to-go">
+                    <h1 class="content-header">
+                        DON'T KNOW WHERE YOU ARE BELONG TO?
+                    </h1>
+
+                    <div class="img-container">
+                        <img src="/style/images/3749520.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--EXPERIENCE-->
+
+        <!--INTRODUCTION BEAUTIFUL SCENERY CONTENT-->
+
+        <div class="footer">
+
+            <div class = "subscribe__email">
+
+                    <table  class = "form__emailsubscription">
+                        <tr>
+                            <td  style = "padding:10px;text-align: center;" colspan="2"><h1 class = "email__header">Subscribe to our mailing list</h1></td>
+
+                        </tr>
+                        <tr>
+                            <td style = "padding:10px;text-align: center;" colspan="2">SUBSCRIBE TO GET LATEST CONTENT BY EMAIL, NEWS AND OFFERS </td>
+                        </tr>
+                        <tr>
+                            <td  style = "padding:10px;">
+                                <input type = "text" maxlength="100" id = "email_subcription" placeholder = "email@example.com" class = "emailtype">
+                            </td>
+                            <td  style = "padding:10px">
+                                <p class = "button__subscribe--green">
+                                 SUBSCRIBE
+                            </p>
+                            </td>
+                        </tr>         
+                    </table>
+            </div>
+
+            <div class = "footer__webinformation" >
+                <table class = "table__webinformation" style = "float: left;" >
+                    <tr>
+                        <td>
+                            <p class = "box__companyicon">
+                            <img style = "color: white" width = "170px" src = "style/images/logo_link-removebg-preview.png">
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>With collaboration of</td>
+                        <td><img width = "132px" src = "style/images/ktmt-logo.png"></td>
+                        <td><img width = "102px" src = "style/images/httt-logo.png"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>OUR MISSION</b>
+                        </td>
+                    </tr>
+                    <tr style = "padding:10px; font-size: 15px;">
+                        <td colspan="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero explicabo culpa laboriosam dolorem consequatur modi molestias sequi porro corrupti mollitia perspiciatis adipisci nobis harum iure corporis dicta odit, ducimus numquam?</td>
+                    </tr>
+                </table>
+
+                    <table class = "table__webinformationsub" >
+                        <tr>
+                            <td width = "30%">
+                                <b>LIÊN KẾT</b>
+                                </td>
+
+                            <td width = "25%"><b>FOLLOW US ON</b></td>
+                            <td width = "30%"><b>CONTACT US</b></td>
+                        </tr>
+
+                        <tr >
+                            <td style = "color: gray; padding: 15px;font-size: 18px;">
+                                <ul>
+                                    <li>Bản tin du lịch</li>
+                                    <li>Góc báo chí du lịch</li>
+                                    <li>Khám phá du lịch</li>
+                                    <li>Kinh nghiệm du lịch</li>
+                                    <li>Sự kiện du lịch</li>
+                                    <li>Tư vấn du lịch</li>
+                                    <li>Tuyển dụng du lịch</li>
+                                    <li>Giới thiệu địa điểm du lịch</li>
+                                </ul>
+                            </td>
+
+                            <td>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            </td>
+
+                            <td >
+                                <ul style = "color:gray; font-size: 18px;">
+                                    <li><i style = "padding:10px; font-size: 18px;"class="material-icons">place</i> Kp. 6, P. Linh Trung, Tp. Thủ Đức, Tp. HCM</li>
+
+                                    <li><i style = "padding:10px; font-size: 18px; margin-right: 20px;"class="fa fa-phone"></i> +84 45 786 53776</li>
+                                    <li><i style = "padding:10px; font-size: 18px;margin-right: 20px;"class="fa fa-envelope"></i> example@email.com</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+
+            </div>
+            <div class = "footer__bottomcredits">
+                <p style = "color:white; margin-top: 10px;">
+                    &#169 All rights Reserved. Web design by UIT CE_IS Team
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="login">
+        <form action="">
+            <div class="input-item">
+                <span>Username</span>
+                <input type="text" name="" id="">
+            </div>
+
+            <div class="input-item">
+                <span>Password</span>
+                <input type="password" name="" id="">
+            </div>
+
+            <button>SIGN IN</button>
+        </form>
+
+
+
+    </div>
+
+
+
+</body>
+
 </html>
