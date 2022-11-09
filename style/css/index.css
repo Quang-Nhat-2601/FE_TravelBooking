@@ -205,6 +205,11 @@
   margin: 16px;
 }
 
+.tour-item-container .img-container{
+  width: 300px;
+  height: 300px;
+}
+
 .content-item:nth-child(2) {
   background-color: paleturquoise;
 }
