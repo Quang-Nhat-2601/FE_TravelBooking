@@ -5,6 +5,11 @@
 .app {
   position: relative;
   max-width: 1700px;
+
+  height: 1700px;
+
+  margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -177,7 +182,6 @@
     0px -2px 0 #333;
 }
 
-.content {}
 
 .content-item {
   padding-top: 60px;
@@ -221,7 +225,11 @@
 .footer {
   margin-top: 500px;
   width: 100%;
+
+
   height: 600px;
+
+
   height: 860px;
   /*background-color: #333333;*/
   background-color: black;
@@ -231,101 +239,125 @@
   display: block;
 }
 
-.subscribe__email {
 
-  background-image: linear-gradient(rgba(12, 112, 171, 0.6), rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
+.subscribe__email
+{   
 
-  height: 355px;
-  background-position: center;
-  /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
-  /*hinh cu tui add bi loi mat*/
-  background-image: linear-gradient(rgba(12, 112, 171, 0.6), rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
-
-  height: 400px;
-  width: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-
-}
+    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
+    /*hinh cu tui add bi loi mat*/
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+   
 
 
-.form__emailsubscription {
-  padding: 10px;
-  width: 700px;
-  position: absolute;
-  color: white;
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
 
-  margin-left: 420px;
-  margin-top: 60px;
+    height: 355px;
+    background-position: center;
+    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
+    /*hinh cu tui add bi loi mat*/
+    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
 
-  margin-left: 28.5%;
-  margin-top: 65px;
+    height: 400px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    position: relative;
 
 
-.email__header {
-  font-size: 50px;
-}
+ }
 
-input[type="text"].emailtype {
-  border: transparent;
-  font-size: 13px;
-  width: 280px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 3px;
-  margin-left: 100px;
-  margin-top: 30px;
-}
 
-.button__subscribe--green {
-  height: 50px;
-  width: 120px;
-  border-radius: 3px;
-  background-color: #04AA6D;
+ .form__emailsubscription
+ {   
+    padding: 10px;
+    width: 700px;
+    position: absolute;
+    color: white;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 100px;
+    margin-left: 420px;
+    margin-top: 60px;
 
-  cursor: pointer;
-}
+   
+    margin-left: 28.5%;
+    margin-top: 65px;
 
-.footer__webinformation {
-  height: 420px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
-.table__webinformation {
-  display: block;
-  width: 500px;
-  color: white;
-  padding: 10px;
-  margin-top: 30px;
-  margin-left: 56px;
-}
 
-.table__webinformationsub {
-  float: left;
-  width: 900px;
-  padding: 20px;
-  color: white;
-  margin-left: 30px;
-  margin-top: 45px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+ .email__header
+ {
+    font-size: 50px;
+ }
+ input[type = "text"].emailtype
+ {
+    border: transparent;
+    font-size: 13px;
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 30px;
+ }
 
-.box__companyicon {
-  background-color: white;
-  height: 70px;
-  width: 180px;
+ .button__subscribe--green
+ {
+    height: 50px;
+    width: 120px;
+    border-radius: 3px;
+    background-color: #04AA6D;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+
+    cursor: pointer ;
+ }
+
+ .footer__webinformation
+ {
+    height: 420px;
+ }
+
+
+ .table__webinformation
+ {  
+    color:white;
+    display: block;
+    width: 500px;
+
+   
+    padding: 10px;
+    margin-top:30px;
+    margin-left: 56px;
+ }
+
+ .table__webinformationsub
+ {  
+    float: left;
+    width: 900px;
+    padding: 20px;
+    color:white;
+
+
+    margin-left: 30px;
+    margin-top:45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .box__companyicon
+ {
+  background-color: white; 
+  height:70px; 
+  width: 180px; 
+
   border-radius: 5px;
 }
 
@@ -396,14 +428,18 @@ input[type="text"].emailtype {
   border-collapse: collapse;
 }
 
-.footer__bottomcredits {
-  width: 100%;
-  height: 50px;
-  background-color: #333333;
 
-  padding: 10px;
+.footer__bottomcredits
+{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
+
