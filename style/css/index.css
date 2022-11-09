@@ -4,10 +4,7 @@
 .app {
   position: relative;
   max-width: 1700px;
-<<<<<<< Updated upstream
-=======
-  height: 3000px;
->>>>>>> Stashed changes
+
   height: 1700px;
 
   margin-left: auto;
@@ -194,10 +191,9 @@
 .footer {
   margin-top: 500px;
   width: 100%;
-<<<<<<< Updated upstream
-=======
+
   height: 600px;
->>>>>>> Stashed changes
+
   height: 860px;
   /*background-color: #333333;*/
   background-color: black;
@@ -209,12 +205,12 @@
 
 .subscribe__email
 {   
-<<<<<<< Updated upstream
+
     /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
     /*hinh cu tui add bi loi mat*/
     background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
    
-=======
+
 
     background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
 
@@ -224,18 +220,15 @@
     /*hinh cu tui add bi loi mat*/
     background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
 
->>>>>>> Stashed changes
     height: 400px;
     width: 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< Updated upstream
- 
-=======
+
     position: relative;
 
->>>>>>> Stashed changes
+
  }
 
 
@@ -245,12 +238,10 @@
     width: 700px;
     position: absolute;
     color: white;
-<<<<<<< Updated upstream
-=======
 
     margin-left: 420px;
     margin-top: 60px;
->>>>>>> Stashed changes
+
    
     margin-left: 28.5%;
     margin-top: 65px;
@@ -296,21 +287,15 @@
  {
     height: 420px;
  }
-<<<<<<< Updated upstream
- 
-=======
 
->>>>>>> Stashed changes
+
  .table__webinformation
- {
+ {  
+    color:white;
     display: block;
     width: 500px;
-<<<<<<< Updated upstream
-    
-=======
 
->>>>>>> Stashed changes
-    color:white;
+   
     padding: 10px;
     margin-top:30px;
     margin-left: 56px;
@@ -322,11 +307,8 @@
     width: 900px;
     padding: 20px;
     color:white;
-<<<<<<< Updated upstream
-    
-=======
 
->>>>>>> Stashed changes
+
     margin-left: 30px;
     margin-top:45px;
     font-size: 20px;
@@ -415,11 +397,6 @@
     width: 100%;
     height: 50px;
     background-color: #333333;
-<<<<<<< Updated upstream
-  
-=======
-
->>>>>>> Stashed changes
 
     padding: 10px;
 
@@ -427,8 +404,3 @@
     justify-content: center;
     align-items: center;
 }
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
