@@ -1,16 +1,10 @@
 :root {
   --header-height: 10vh;
 }
+
 .app {
   position: relative;
   max-width: 1700px;
-<<<<<<< Updated upstream
-=======
-  height: 3000px;
->>>>>>> Stashed changes
-  height: 1700px;
-
-  margin-left: auto;
   margin-right: auto;
 }
 
@@ -27,9 +21,11 @@
   justify-content: space-between;
   z-index: 1000;
 }
+
 .header .logo-container img:first-child {
   padding-right: 12px;
 }
+
 .search-bar-container {
   display: flex;
   width: 450px;
@@ -38,15 +34,18 @@
   background-color: #ccc;
   border-radius: 5px;
 }
+
 .search-bar-container img {
   width: 32px;
   padding-right: 8px;
 }
+
 .searchbox-container {
   display: inline-block;
   font-size: 15px;
   flex: 1;
 }
+
 .searchbox-container input {
   border: none;
   height: 100%;
@@ -54,15 +53,18 @@
   color: rgb(26, 26, 26);
   background-color: initial;
 }
+
 .menu {
   height: var(--header-height);
   font-size: 16px;
 }
+
 .main-menu {
   margin-bottom: 0;
   display: flex;
   height: 100%;
 }
+
 .main-menu-item {
   display: flex;
   position: relative;
@@ -72,15 +74,19 @@
   align-items: center;
   justify-content: center;
 }
+
 .row {
   width: 100%;
 }
+
 .col-4 {
   width: 25%;
 }
+
 .main-menu-item:hover {
   background-color: #ddd;
 }
+
 .sub-menu {
   display: none;
   background-color: #fff;
@@ -88,12 +94,14 @@
   padding-left: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .main-menu-item:hover .sub-menu {
   display: block;
   position: absolute;
   top: 10vh;
   left: 0;
 }
+
 .sub-menu li {
   height: 36px;
   width: 110px;
@@ -102,20 +110,25 @@
   justify-content: center;
   cursor: pointer;
 }
+
 .sub-menu li:hover {
   background-color: darkgrey;
 }
+
 .menu a {
   text-decoration: none;
   color: #333;
 }
+
 .slider {
   z-index: 10;
 }
+
 .carousel-item img {
   width: 100%;
   height: 100vh;
 }
+
 .slider-detail {
   position: absolute;
   bottom: 0;
@@ -125,6 +138,7 @@
   z-index: 3;
   padding-bottom: 40px;
 }
+
 .slider-detail .place-name {
   color: #ffffff;
   /* background: #ffffff; */
@@ -133,11 +147,13 @@
     -2px -2px 0 #333, 2px 0px 0 #333, 0px 2px 0 #333, -2px 0px 0 #333,
     0px -2px 0 #333;
 }
+
 .slider-detail .place-description {
   color: #fff;
   font-size: 30px;
   text-shadow: 4px 4px 4px #000;
 }
+
 .rating-container {
   position: absolute;
   top: calc(var(--header-height) + 30px);
@@ -145,10 +161,12 @@
   z-index: 3;
   display: flex;
 }
+
 .rating-container img {
   width: 80px;
   height: 80px;
 }
+
 .rating-container .rating-score {
   display: inline;
   color: yellow;
@@ -158,46 +176,52 @@
     -2px -2px 0 #333, 4px 0px 0 #333, 0px 2px 0 #333, -2px 0px 0 #333,
     0px -2px 0 #333;
 }
-.content {
-}
+
+.content {}
+
 .content-item {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
 .content-item:first-child {
   background-color: #ccc;
 }
+
 .best-tour {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 60px;
 }
+
 .content-header {
   color: #333;
   padding-bottom: 50px;
 }
+
 .tour-item-container {
   height: 300px;
   background-color: chartreuse;
   margin: 16px;
 }
+
 .content-item:nth-child(2) {
   background-color: paleturquoise;
 }
+
 .suggest-where-to-go .img-container {
   text-align: center;
 }
+
 .suggest-where-to-go .img-container img {
   width: 60%;
   margin: 0 auto;
 }
+
 .footer {
   margin-top: 500px;
   width: 100%;
-<<<<<<< Updated upstream
-=======
   height: 600px;
->>>>>>> Stashed changes
   height: 860px;
   /*background-color: #333333;*/
   background-color: black;
@@ -207,142 +231,106 @@
   display: block;
 }
 
-.subscribe__email
-{   
-<<<<<<< Updated upstream
-    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
-    /*hinh cu tui add bi loi mat*/
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
-   
-=======
+.subscribe__email {
 
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
+  background-image: linear-gradient(rgba(12, 112, 171, 0.6), rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
 
-    height: 355px;
-    background-position: center;
-    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
-    /*hinh cu tui add bi loi mat*/
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+  height: 355px;
+  background-position: center;
+  /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
+  /*hinh cu tui add bi loi mat*/
+  background-image: linear-gradient(rgba(12, 112, 171, 0.6), rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
 
->>>>>>> Stashed changes
-    height: 400px;
-    width: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-<<<<<<< Updated upstream
- 
-=======
-    position: relative;
+  height: 400px;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
->>>>>>> Stashed changes
- }
+}
 
 
- .form__emailsubscription
- {   
-    padding: 10px;
-    width: 700px;
-    position: absolute;
-    color: white;
-<<<<<<< Updated upstream
-=======
+.form__emailsubscription {
+  padding: 10px;
+  width: 700px;
+  position: absolute;
+  color: white;
 
-    margin-left: 420px;
-    margin-top: 60px;
->>>>>>> Stashed changes
-   
-    margin-left: 28.5%;
-    margin-top: 65px;
+  margin-left: 420px;
+  margin-top: 60px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+  margin-left: 28.5%;
+  margin-top: 65px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
- .email__header
- {
-    font-size: 50px;
- }
- input[type = "text"].emailtype
- {
-    border: transparent;
-    font-size: 13px;
-    width: 280px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 3px;
-    margin-left: 100px;
-    margin-top: 30px;
- }
+.email__header {
+  font-size: 50px;
+}
 
- .button__subscribe--green
- {
-    height: 50px;
-    width: 120px;
-    border-radius: 3px;
-    background-color: #04AA6D;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 100px;
+input[type="text"].emailtype {
+  border: transparent;
+  font-size: 13px;
+  width: 280px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
 
-    cursor: pointer ;
- }
+.button__subscribe--green {
+  height: 50px;
+  width: 120px;
+  border-radius: 3px;
+  background-color: #04AA6D;
 
- .footer__webinformation
- {
-    height: 420px;
- }
-<<<<<<< Updated upstream
- 
-=======
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
 
->>>>>>> Stashed changes
- .table__webinformation
- {
-    display: block;
-    width: 500px;
-<<<<<<< Updated upstream
-    
-=======
+  cursor: pointer;
+}
 
->>>>>>> Stashed changes
-    color:white;
-    padding: 10px;
-    margin-top:30px;
-    margin-left: 56px;
- }
+.footer__webinformation {
+  height: 420px;
+}
 
- .table__webinformationsub
- {  
-    float: left;
-    width: 900px;
-    padding: 20px;
-    color:white;
-<<<<<<< Updated upstream
-    
-=======
+.table__webinformation {
+  display: block;
+  width: 500px;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 56px;
+}
 
->>>>>>> Stashed changes
-    margin-left: 30px;
-    margin-top:45px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
- }
+.table__webinformationsub {
+  float: left;
+  width: 900px;
+  padding: 20px;
+  color: white;
+  margin-left: 30px;
+  margin-top: 45px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
- .box__companyicon
- {
-  background-color: white; 
-  height:70px; 
-  width: 180px; 
+.box__companyicon {
+  background-color: white;
+  height: 70px;
+  width: 180px;
   border-radius: 5px;
- }
+}
 
 
- /* Style all font awesome icons */
+/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -387,48 +375,35 @@
   color: white;
 }
 
-.fa-instagram
-{
+.fa-instagram {
   color: white;
-  background: #f09433; 
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
 
-.line__division
-{     
+.line__division {
 
-      width: 1700px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
+  width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 
-      border: 0.5px gray solid;
-      color: gray;
-      border-collapse: collapse;
+  border: 0.5px gray solid;
+  color: gray;
+  border-collapse: collapse;
 }
 
-.footer__bottomcredits
-{
-    width: 100%;
-    height: 50px;
-    background-color: #333333;
-<<<<<<< Updated upstream
-  
-=======
+.footer__bottomcredits {
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
 
->>>>>>> Stashed changes
+  padding: 10px;
 
-    padding: 10px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
