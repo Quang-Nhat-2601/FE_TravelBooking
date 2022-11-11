@@ -186,10 +186,18 @@
 .content-item {
   padding-top: 60px;
   padding-bottom: 40px;
+  position: relative;
+  height:700px;
+  background-color: #04AA6D;
 }
 
-.content-item:first-child {
+/*vua nay co xoa di content-itemchild de de hon trong viec thay the thuoc tinh*/
+
+.content__touritem{
   background-color: #ccc;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  height: 600px;
 }
 
 .best-tour {
@@ -203,15 +211,21 @@
   padding-bottom: 50px;
 }
 
+.content__header--lighter
+{
+  color: black;
+
+  font-weight: lighter;
+  text-align: center;
+}
+
 .tour-item-container {
   height: 300px;
   background-color: chartreuse;
   margin: 16px;
 }
 
-.content-item:nth-child(2) {
-  background-color: paleturquoise;
-}
+
 
 .suggest-where-to-go .img-container {
   text-align: center;
@@ -442,4 +456,61 @@
     align-items: center;
    
 }
+
+.table__destinationcontain
+{
+
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding:10px;
+}
+
+.image__destfirst
+{
+    width: 300px;
+    height: 370px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.image__destsecond
+{
+    width: 300px;
+    height: 370px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.image__destthird
+{
+   width: 300px;
+    height: 370px;
+    border-radius: 5px;
+    float: left;
+}
+
+.image__destfourth
+{
+   width: 300px;
+    height: 370px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.title__imagedest--bottomleft
+{
+  position: absolute;
+  color: white;
+  padding: 20px;
+  bottom: 130px;
+}
+
+
+
+
 
