@@ -630,16 +630,11 @@
   position: relative;
   float: left;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   padding-top: 30px;
 }
 
 .card--services img {
-  width: 130px;
-  height: 130px;
-}
-
-.card--services .fixed-img {
   width: auto;
   height: 130px;
 }
