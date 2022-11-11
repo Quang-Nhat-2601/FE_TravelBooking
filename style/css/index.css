@@ -236,6 +236,14 @@
   text-align: center;
 }
 
+.content__header--boldwhite
+{
+  color: white;
+  
+  font-weight: 400;
+  text-align: center;
+}
+
 .tour-item-container {
   height: 300px;
   background-color: chartreuse;
@@ -275,21 +283,15 @@
 
     /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
     /*hinh cu tui add bi loi mat*/
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+    background-image: linear-gradient(rgba(12, 113, 171, 0.895),  rgba(12, 113, 171, 0.895)), url("../images/Norway_slider.jpg");
    
-
-
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/bgimage_email.png");
-
     height: 355px;
     background-position: center;
-    /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
-    /*hinh cu tui add bi loi mat*/
-    background-image: linear-gradient(rgba(12, 112, 171, 0.6),  rgba(12, 112, 171, 0.5)), url("../images/Norway_slider.jpg");
+
 
     height: 400px;
     width: 100%;
-    background-position: top;
+
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -345,10 +347,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
+
 
     cursor: pointer ;
  }
+ 
+ .button__register--green
+ {
+    height: 70px;
+    width: 170px;
+    border-radius: 3px;
+    background-color:  #22BE67;
+
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+    font-size: 20px;
+    cursor: pointer ;
+ }
+
+ .button__register--blue
+ {
+    height: 70px;
+    width: 170px;
+    border-radius: 3px;
+    background-color:  #149DC8;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-size: 20px;
+    cursor: pointer ;
+ }
+
 
  .footer__webinformation
  {
@@ -634,11 +671,28 @@
 
 .promotionoffer__container
 {
-  background-color: #55ACEE;
+  background-image: linear-gradient(rgba(0, 60, 94, 0.338),  rgba(0, 45, 71, 0.338)),url("../images/nhatrang.jpg");
+
+
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+
   width: 100%;
-  height:450px;
+  height:650px;
   padding-top: 60px;
   padding-bottom: 40px;
+}
+
+.table__promotion
+{
+  
+  width: 500px;
+  color: white;
+  margin-left: 100px;
+  height:400px;
+  margin-top: 100px;
+
 }
 
 
