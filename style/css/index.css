@@ -85,7 +85,7 @@
 }
 
 .col-4 {
-  width: 25%;
+  width: 24%;
 }
 
 .main-menu-item:hover {
@@ -186,6 +186,20 @@
 .content-item {
   padding-top: 60px;
   padding-bottom: 40px;
+  min-height: 900px;
+}
+
+.bg-img--content-item {
+  background-image: url("../images/airport.jpg");
+  background-repeat: no-repeat;
+  background-size: 1800px 900px;
+
+}
+
+.tour-item-container .content-text {
+  font-size: 22px ;
+  width: 100%;
+  text-align: center;
 }
 
 .content-item:first-child {
@@ -193,7 +207,7 @@
 }
 
 .best-tour {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-bottom: 60px;
 }
@@ -205,11 +219,11 @@
 
 .tour-item-container {
   height: 300px;
-  margin: 16px;
+  margin: 10px;
 }
 
 .tour-item-container img{
-  width: 300px;
+  width: 325px;
   height: 300px;
 }
 
@@ -447,3 +461,7 @@
    
 }
 
+.test {
+  position: absolute;
+  z-index: 1;
+}
