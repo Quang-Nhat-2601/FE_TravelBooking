@@ -87,6 +87,10 @@ p {
   width: 25%;
 }
 
+.col-3 {
+  width: 33%;
+}
+
 .main-menu-item:hover {
   background-color: #ddd;
 }
@@ -203,7 +207,7 @@ p {
 }
 
 .best-tour {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-bottom: 60px;
 
@@ -237,6 +241,10 @@ p {
   height: 300px;
   background-color: chartreuse;
   margin: 16px;
+}
+
+.content-item:nth-child(2) {
+  background-color: paleturquoise;
 }
 
 .suggest-where-to-go .img-container {
