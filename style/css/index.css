@@ -198,7 +198,7 @@ p {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 40px;
-  height: 770px;
+  height: 800px;
   background-image: url("../images/test5.png");
   background-size: auto;
   background-repeat: no-repeat;
@@ -226,6 +226,7 @@ p {
 }
 
 .content__header--lighterwhite {
+  padding-top: 30px;
   color: white;
   font-weight: lighter;
   text-align: center;
@@ -564,12 +565,12 @@ input[type="text"].emailtype {
 }
 
 .travellingexperience__container {
-  background-color: #ccc;
+  background-color: white;
   padding-top: 60px;
   padding-bottom: 40px;
   position: relative;
   width: 100%;
-  height: 950px;
+  height: 750px;
 }
 
 .promotionoffer__container {
@@ -677,7 +678,6 @@ input[type="text"].emailtype {
 
 .col__inspirecustom
 {
-  
   padding:10px;
   float: left;
   padding-bottom: 10px;
@@ -703,4 +703,45 @@ input[type="text"].emailtype {
   font-weight: bold;
   color: rgb(4, 121, 255);
   margin-left: 25px;
+}
+
+.table__experiencecontainer
+{
+
+  width: 80%;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: flex;
+}
+
+
+
+.image__experience
+{ 
+  float: left;
+  width: 280px;
+  height:180px;
+  border-radius: 5px;
+  padding: 1px;  
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.tittle__experience
+{
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-top: 120px;
+  padding: 10px;
+  margin-left: 40px;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0)  ;
+}
+
+.icon__experiencecustom--leftbottom
+{
+  font-size: 25px;
 }
