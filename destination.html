@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookingUIT</title>
+
+    <link rel="stylesheet" href="style/css/destination.css">
+    <link rel="stylesheet" href="style/css/reset.css">
+    <link rel="stylesheet" href="style/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        $(".login").hide()
+        $("#signin-option").click(function () {
+            console.log("signin")
+            $(".login").show()
+        });
+    });
+</script>
+<!--COMMENT PUSH PULL-->
+<body>
+    <div class="app">
+        <!-- BEGIN: HEADER -->
+        <div class="header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="./style/images/logo_link.png" alt="" width="162px">
+                </a>
+            </div>
+            <div class="search-bar-container">
+                <img src="./style/images/Search_46px.png" alt="">
+                <div class="input-container searchbox-container">
+                    <input class="fw-5" type="text" name="search-header" id="" placeholder="Your Favourite Destination">
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="main-menu">
+                    <li class = "main-menu-item">
+                        <a href = "index.html" class = "fw-5">HOME</a>
+                    </li>
+                
+                    <li class="main-menu-item">
+                        <a href="" class="fw-5">DESTINATION</a>
+                        <ul class="sub-menu">
+                            <li>ASIA</li>
+                            <li>EUROPE</li>
+                            <li>AMERICA</li>
+                            <li>AFRICA</li>
+                            <li>AUSTRALIA</li>
+                        </ul>
+                    </li>
+
+                    <li class="main-menu-item">
+                        <a href="" class="fw-5">ACTIVITIES</a>
+                        <ul class="sub-menu">
+                            <li>Diving</li>
+                            <li>White Sands</li>
+                            <li>Family Fun</li>
+                            <li>Old Colonial Towns</li>
+                            <li>Romantic Getaway</li>
+                            <li>Snorkeling</li>
+                            <li>Beautiful Scenery</li>
+                            <li>Outdoor Adventure</li>
+                        </ul>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="/aboutUs.html" class="fw-5">ABOUT US</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="" class="fw-5">ACCOUNT</a>
+
+                        <ul class="sub-menu">
+                            <li id="signin-option">SIGN-IN</li>
+                            <li>SIGN-UP</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END: HEADER -->
+
+        <div class = "bannercontainer__destination">
+                <img src = "style/images/destination_banner.jpg" class = "topbanner__destination">
+             <h1 class = "title__destination">Tour Category: Destination</h1>
+        </div>
+
+        <div id = "middle__destination">
+            <div id = "leftpane__destination">
+
+            </div>
+            <div id = "rightpane__destination">
+
+            </div>
+        </div>
+
+        <div class = "clear">
+
+        </div>
+
+
+        <div id = "footer__destination">
+
+        </div>
+        
+    </div>
+</body>
+
+</html>
