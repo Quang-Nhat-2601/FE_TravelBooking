@@ -267,9 +267,7 @@ p {
 }
 
 .subscribe-email {
-  /*moi nguoi giup tui add hinh dep dep nao do vao day nha tui tim mai khong thay hinh ung y :(((*/
-  /*hinh cu tui add bi loi mat*/
-  /* background-image: linear-gradient(rgba(12, 113, 171, 0.895), rgba(12, 113, 171, 0.895)), url("../images/Norway_slider.jpg"); */
+ 
   background-image: url("../images/Norway_slider.jpg");
   background-position: center;
   height: 320px;
@@ -743,4 +741,10 @@ input[type="text"].emailtype {
 .icon__experiencecustom--leftbottom
 {
   font-size: 25px;
+}
+
+.link__destination--whitenoline
+{
+  color:white;
+  text-decoration: none;
 }
