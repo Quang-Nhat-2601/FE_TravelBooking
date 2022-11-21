@@ -91,6 +91,10 @@ p {
   width: 33%;
 }
 
+.col-2 {
+  width: 50%;
+}
+
 .main-menu-item:hover {
   background-color: #ddd;
 }
@@ -109,11 +113,11 @@ p {
   position: absolute;
   top: 10vh;
   left: 0;
+  right: 0;
 }
 
 .sub-menu li {
   height: 36px;
-  width: 190px;
   padding: 10px;
   cursor: pointer;
 }
@@ -257,9 +261,130 @@ p {
 }
 
 .footer {
-  width: 100%;
-  height: 860px;
-  background-color: black;
+  background-color: #000;
+}
+
+.footer-container {
+  display: flex;
+  padding: 60px;
+}
+
+.footer-item {
+  padding: 20px 40px;
+  /* width: 33%; */
+  text-align: justify;
+}
+
+.footer-item__header {
+  color: #fff;
+  padding-bottom: 4px;
+}
+
+.footer-about-us-vs-receive-tour {
+  flex: 2;
+}
+
+.footer-item__about-us {
+  color: #ccc;
+}
+
+.footer-item__about-us p {
+  padding-top: 16px;
+}
+
+.footer-item__about-us p a {
+  /* padding: 0 16px; */
+  color: bisque;
+}
+
+.footer-item__receive-tour {
+  padding-top: 30px;
+}
+
+.footer-item__receive-tour .form-receive {
+  padding: 20px 0;
+}
+
+.footer-item__receive-tour .form-receive input {
+  padding: 10px;
+  width: 90%;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.footer-item__receive-tour .send-email {
+  background-color: #fff;
+  padding-right: 12px;
+}
+
+.footer-item__receive-tour .send-email img {
+  color: #000;
+}
+
+.footer-contact {
+  flex: 2;
+}
+
+.footer-contact__phone {
+  padding-top: 30px;
+}
+
+.footer-contact p>img {
+  width: 48px;
+  padding-right: 12px;
+}
+
+.footer-contact p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-contact div {
+  padding-top: 30px;
+}
+
+.footer-contact__email {
+  padding-bottom: 30px;
+}
+
+.footer-contact__social-media {
+  text-align: center;
+  padding-top: 0 !important;
+}
+
+.footer-contact__social-media a {
+  text-decoration: none;
+}
+
+.social-media-icon {
+  padding-right: 16px;
+  width: 70px;
+}
+
+.footer-top-tour-img {
+  flex: 3;
+}
+
+.footer-top-tour-img__img-container .tour-image {
+  width: 45%;
+  padding-right: 16px;
+  height: 130px;
+}
+
+.footer-top-tour-img__img-container-row {
+  padding-top: 28px;
+}
+
+.copy-right {
+  text-align: center;
+  color: #aaa;
+  padding-bottom: 60px;
+  font-size: 20px;
+}
+
+.copy-right a {
+  text-decoration: none;
 }
 
 .login {
@@ -267,7 +392,7 @@ p {
 }
 
 .subscribe-email {
- 
+
   background-image: url("../images/Norway_slider.jpg");
   background-position: center;
   height: 320px;
@@ -278,25 +403,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.subscribe-email__title {
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-
-.subscribe-email__subTitle {
-  color: #ddd;
-  font-weight: 300;
-  margin-bottom: 60px;
-}
-
-.subcribe-email__button {
-  background-color: #3cbb67;
-  padding: 12px 20px;
-  font-size: 20px;
-  border-radius: 10px;
 }
 
 .form__emailsubscription {
@@ -447,12 +553,10 @@ input[type="text"].emailtype {
 }
 
 .line__division {
-
   width: 1700px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-
   border: 0.5px gray solid;
   color: gray;
   border-collapse: collapse;
@@ -469,7 +573,6 @@ input[type="text"].emailtype {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .destinationcontain {
@@ -652,58 +755,51 @@ input[type="text"].emailtype {
   font-size: 18px;
 }
 
-.table__inspiration--shadow
-{ 
+.table__inspiration--shadow {
   border-radius: 2px;
   background-color: white;
   margin-top: 50px;
 
   width: 70%;
-  height:400px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 2px 2px 2px 2px rgba(181, 181, 181, 0.692);
 }
 
-.image__inspirecustom
-{
+.image__inspirecustom {
   float: left;
-  width: 300px; 
-  height: 270px; 
-  border-radius: 2px ;
+  width: 300px;
+  height: 270px;
+  border-radius: 2px;
 }
 
-.col__inspirecustom
-{
-  padding:10px;
+.col__inspirecustom {
+  padding: 10px;
   float: left;
   padding-bottom: 10px;
 }
 
-.paragraph--leftgray
-{
-  color:gray;
+.paragraph--leftgray {
+  color: gray;
   margin-left: 25px;
-  padding-top:10px
+  padding-top: 10px
 }
 
-.paragraph--leftlight
-{
-  font-weight:370; 
+.paragraph--leftlight {
+  font-weight: 370;
   margin-left: 25px;
 }
 
-.paragraph__readmore
-{
-  padding-top:20px;
+.paragraph__readmore {
+  padding-top: 20px;
   font-size: 15px;
   font-weight: bold;
   color: rgb(4, 121, 255);
   margin-left: 25px;
 }
 
-.table__experiencecontainer
-{
+.table__experiencecontainer {
 
   width: 80%;
   height: 230px;
@@ -713,21 +809,17 @@ input[type="text"].emailtype {
   display: flex;
 }
 
-
-
-.image__experience
-{ 
+.image__experience {
   float: left;
   width: 280px;
-  height:180px;
+  height: 180px;
   border-radius: 5px;
-  padding: 1px;  
+  padding: 1px;
   margin-left: 30px;
   margin-top: 40px;
 }
 
-.tittle__experience
-{
+.tittle__experience {
   position: absolute;
   font-size: 25px;
   color: white;
@@ -735,16 +827,14 @@ input[type="text"].emailtype {
   padding: 10px;
   margin-left: 40px;
   font-weight: 300;
-  text-shadow: 2px 2px 5px rgb(0, 0, 0)  ;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
-.icon__experiencecustom--leftbottom
-{
+.icon__experiencecustom--leftbottom {
   font-size: 25px;
 }
 
-.link__destination--whitenoline
-{
-  color:white;
+.link__destination--whitenoline {
+  color: white;
   text-decoration: none;
 }
