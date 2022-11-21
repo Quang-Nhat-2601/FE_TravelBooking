@@ -113,11 +113,11 @@ p {
   position: absolute;
   top: 10vh;
   left: 0;
+  right: 0;
 }
 
 .sub-menu li {
   height: 36px;
-  width: 190px;
   padding: 10px;
   cursor: pointer;
 }
