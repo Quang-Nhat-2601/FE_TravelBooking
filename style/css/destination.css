@@ -261,3 +261,10 @@
   padding: 10px;
   border: white;
 }
+
+
+.link__destination--blacknoline
+{
+  color:black;
+  text-decoration: none;
+}
