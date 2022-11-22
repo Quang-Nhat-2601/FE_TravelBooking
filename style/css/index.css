@@ -177,6 +177,22 @@
   cursor: pointer;
 }
 
+.button__register--green {
+  height: 70px;
+  width: 170px;
+  border-radius: 3px;
+  background-color: #22BE67;
+
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
