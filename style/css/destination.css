@@ -35,7 +35,7 @@
 }
 
 #middle__destination {
-  height: 3000px;
+  height: 2000px;
   width: 100%;
   background-color: #333;
 }
@@ -56,12 +56,6 @@
 
 .clear {
   clear: both;
-}
-
-#footer_destination {
-  height: 300px;
-  width: 100%;
-  background-color: orange;
 }
 
 .destination__item {
