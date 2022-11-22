@@ -1,3 +1,15 @@
 .fw-5 {
     font-weight: 500;
 }
+
+a:hover.link__destinationhome--green
+{
+    color: rgb(0, 173, 0);
+    text-decoration: none;
+}
+
+a.link__destinationhome--green
+{
+    color: white;
+    text-decoration: none;
+}
