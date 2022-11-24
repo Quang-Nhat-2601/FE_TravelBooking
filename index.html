@@ -27,9 +27,12 @@
     $(document).ready(function () {
         $(".login").hide()
         $("#signin-option").click(function () {
-            console.log("signin")
-            $(".login").show()
+            window.location.href = 'sigin.html'
         });
+
+        $("#signup-option").click(function () {
+            window.location.href = 'signup.html'
+        })
     });
 </script>
 <!--COMMENT PUSH PULL-->
@@ -46,7 +49,8 @@
             <div class="search-bar-container">
                 <img src="./style/images/Search_46px.png" alt="">
                 <div class="input-container searchbox-container">
-                    <input class="fw-5" type="text" name="search-header" id="" placeholder="Search your favorite destination">
+                    <input class="fw-5" type="text" name="search-header" id=""
+                        placeholder="Search your favorite destination">
                 </div>
             </div>
             <div class="menu">
@@ -88,7 +92,7 @@
 
                         <ul class="sub-menu">
                             <li id="signin-option">SIGN-IN</li>
-                            <li>SIGN-UP</li>
+                            <li id="signup-option">SIGN-UP</li>
                         </ul>
                     </li>
                 </ul>
