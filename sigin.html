@@ -25,17 +25,63 @@
 
 <body>
     <div class="app">
-        <div class="sigin-form-container">
-            <h2 class="signin-title">
-                SIGN IN
-            </h2>
-            <form action="" class="sigin-form">
-                <input type="text" name="username" id="username" placeholder="Username">
-                <br>
-                <input type="password" name="" id="" placeholder="Password">
-                <br>
-                <input type="button" value="SIGN IN">
-            </form>
+        <div class="form-container">
+            <div class="signin">
+                <form action="" class="form">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./style/images/logo_img.png" alt="">
+                        </a>
+                    </div>
+
+                    <h2 class="title">
+                        SIGN IN
+                    </h2>
+                    <!-- <p>Username</p> -->
+                    <div class="input-field">
+                        <img src="./style/images/icons8_user_24px.png" alt="">
+                        <input type="text" name="username" id="username" placeholder="Username">
+                    </div>
+
+                    <!-- <p>Password</p> -->
+                    <div class="input-field">
+                        <img src="./style/images/icons8_padlock_24px.png" alt="">
+                        <input type="password" name="" id="" placeholder="Password">
+                        <!-- <a href="">
+                            <img src="./style/images/icons8_eye_24px_1.png" alt="" class="eye">
+                        </a> -->
+                    </div>
+
+                    <div class="">
+                        <input type="checkbox" name="remember-me" id="remember-me">
+                        <p class="checkbox-text">Remember Me!</p>
+
+                        <a href="" class="forget-password">Forget Username/ Password</a>
+                        <br>
+                        <input type="button" value="SIGN IN" class="btn">
+                    </div>
+
+                    <div class="sigin-option">
+                        <p>Or Sign in with Social platforms</p>
+                        <a href="">
+                            <img src="./style/images/icons8_facebook_48px.png" alt="" class="social-media-icon">
+                        </a>
+                        <a href="">
+                            <img src="./style/images/icons8_instagram_48px.png" alt="" class="social-media-icon">
+                        </a>
+                        <a href="">
+                            <img src="./style/images/icons8_linkedin_48px.png" alt="" class="social-media-icon">
+                        </a>
+                        <a href="">
+                            <img src="./style/images/icons8_twitter_squared_48px.png" alt="" class="social-media-icon">
+                        </a>
+                    </div>
+
+                    <div class="new-member">
+                        <p>New to GONJOY? <a href="signup.html">Create new account!</a></p>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
