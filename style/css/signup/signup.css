@@ -30,6 +30,9 @@
 
 .title {
     text-align: center;
+}
+
+.title a {
     color: #fff;
     font-size: 60px;
     font-family: title;
@@ -37,6 +40,7 @@
     text-shadow: 2px 2px 0 #333, 2px -2px 0 #333, -2px 2px 0 #333,
         -2px -2px 0 #333, 2px 0px 0 #333, 0px 2px 0 #333, -2px 0px 0 #333,
         0px -2px 0 #333;
+    text-decoration: none;
 }
 
 .sub-title {
