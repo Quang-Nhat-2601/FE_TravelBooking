@@ -70,12 +70,12 @@ form {
 
 .input-field input::placeholder {
     color: #aaa;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .title {
     font-size: 40px;
-    font-family: title;
+    font-weight: 400;
 }
 
 .logo img {
