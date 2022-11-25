@@ -198,6 +198,12 @@
     align-items: center;
   }
 
+  .button__addreview:hover
+  {
+    background-color: #007ACC;
+    transition:0.5;
+  }
+
   .textinput__comment
   {
     padding: 10px;
