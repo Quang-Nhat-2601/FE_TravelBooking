@@ -8,6 +8,7 @@
     <title>BookingUIT</title>
 
     <link rel="stylesheet" href="style/css/destination.css">
+    <link rel="stylesheet" href="style/css/index.css">
     <link rel="stylesheet" href="style/css/reset.css">
     <link rel="stylesheet" href="style/css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,38 +29,41 @@
     $(document).ready(function () {
         $(".login").hide()
         $("#signin-option").click(function () {
-            console.log("signin")
-            $(".login").show()
+            window.location.href = 'sigin.html'
         });
+
+        $("#signup-option").click(function () {
+            window.location.href = 'signup.html'
+        })
     });
 </script>
 <!--COMMENT PUSH PULL-->
 <body>
     <div class="app">
-        <!-- BEGIN: HEADER -->
-        <div class="header">
-            
+         <!-- BEGIN: HEADER -->
+         <div class="header">
             <div class="logo-container">
                 <a href="index.html">
                     <img src="./style/images/logo_link.png" alt="" width="162px">
                 </a>
             </div>
-            
             <div class="search-bar-container">
                 <img src="./style/images/Search_46px.png" alt="">
                 <div class="input-container searchbox-container">
-                    <input class="fw-5" type="text" name="search-header" id="" placeholder="Search your favorite destination">
+                    <input class="fw-5" type="text" name="search-header" id=""
+                        placeholder="Search your favorite destination">
                 </div>
             </div>
-            
             <div class="menu">
                 <ul class="main-menu">
-                    <li class = "main-menu-item">
-                        <a href = "index.html" class = "fw-5">HOME</a>
-                    </li>
-                
                     <li class="main-menu-item">
-                        <a href="" class="fw-5">DESTINATION</a>
+                        <a href="index.html" class="fw-5">HOME</a>
+                    </li>
+
+                    <li class="main-menu-item">
+                        <a href="destination.html" class="fw-5">
+                            DESTINATION
+                        </a>
                         <ul class="sub-menu">
                             <li><a href="destination_curacao.html">Curacao</a></li>
                             <li><a href="destination_guadeloupe.html">Guadelope</a></li>
@@ -72,33 +76,31 @@
                     </li>
 
                     <li class="main-menu-item">
-                        <a href="" class="fw-5">ACTIVITIES</a>
+                        <a href="activities.html" class="fw-5">ACTIVITIES</a>
                         <ul class="sub-menu">
-                            <li>Diving</li>
-                            <li>White Sands</li>
-                            <li>Family Fun</li>
-                            <li>Old Colonial Towns</li>
-                            <li>Romantic Getaway</li>
-                            <li>Snorkeling</li>
-                            <li>Beautiful Scenery</li>
-                            <li>Outdoor Adventure</li>
+                            <li><a href="">Inbound</a></li>
+                            <li><a href="">Outbound</a></li>
+                            <li><a href="">Leisure</a></li>
+                            <li><a href="">Adventure</a></li>
+                            <li><a href="">More</a></li>
                         </ul>
                     </li>
                     <li class="main-menu-item">
-                        <a href="/aboutUs.html" class="fw-5">ABOUT US</a>
+                        <a href="aboutUs.html" class="fw-5">ABOUT US</a>
                     </li>
                     <li class="main-menu-item">
                         <a href="" class="fw-5">ACCOUNT</a>
 
                         <ul class="sub-menu">
                             <li id="signin-option">SIGN-IN</li>
-                            <li>SIGN-UP</li>
+                            <li id="signup-option">SIGN-UP</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- END: HEADER -->
+
 
         <!--BANNER-->
         <div class = "bannercontainer__destinationdetail">

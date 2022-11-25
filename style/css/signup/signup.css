@@ -40,6 +40,7 @@
     text-decoration: none;
 }
 
+
 .sub-title {
     text-align: center;
 }
@@ -61,6 +62,9 @@
     height: 40px;
     background-color: #faefef;
     border-radius: 10px;
+    border-color: #faefef;
+
+    
     padding-left: 8px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
