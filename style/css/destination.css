@@ -126,4 +126,14 @@
   align-items: center;
 }
 
+.button__backtotop
+{
+  font-size:48px;
+  float: right; 
+  padding:10px; 
+  margin-right:5px;
+  margin-top: 400px;
+}
+
+
 
