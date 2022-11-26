@@ -27,9 +27,12 @@
     $(document).ready(function () {
         $(".login").hide()
         $("#signin-option").click(function () {
-            console.log("signin")
-            $(".login").show()
+            window.location.href = 'sigin.html'
         });
+
+        $("#signup-option").click(function () {
+            window.location.href = 'signup.html'
+        })
     });
 </script>
 <!--COMMENT PUSH PULL-->
@@ -46,7 +49,8 @@
             <div class="search-bar-container">
                 <img src="./style/images/Search_46px.png" alt="">
                 <div class="input-container searchbox-container">
-                    <input class="fw-5" type="text" name="search-header" id="" placeholder="Search your favorite destination">
+                    <input class="fw-5" type="text" name="search-header" id=""
+                        placeholder="Search your favorite destination">
                 </div>
             </div>
             <div class="menu">
@@ -88,7 +92,7 @@
 
                         <ul class="sub-menu">
                             <li id="signin-option">SIGN-IN</li>
-                            <li>SIGN-UP</li>
+                            <li id="signup-option">SIGN-UP</li>
                         </ul>
                     </li>
                 </ul>
@@ -123,6 +127,7 @@
                         <p class="place-description">Paysages charmants, Beauté poétique</p>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img class="d-block" src="./style/images/Norway_slider.jpg" alt="Third slide">
                     <div class="rating-container">
@@ -183,22 +188,26 @@
 
                     <h3 class="content__header--lighter">Khám phá một địa điểm du lịch mới mỗi ngày</h3>
 
+                    
                     <div class="destinationcontain">
-                        <div class="destinationcontain__item">
-                            <img src="style/images/holbox-island-palm-tree-huts-mexico.jpg">
+                        <a href="destination.html" class = "button__dest-darkbg">
+                        <div class="destinationcontain__item" >
+                            <img src="style/images/holbox-island-palm-tree-huts-mexico.jpg" >
 
                             <div class="detail">
                                 <i class="fas fa-camera" style="font-size: 25px;"></i>
-                                <p>
+                                <p>    
                                     <a href="destination.html" class="link__destination--whitenoline">
                                         Destination
                                     </a>
                                 </p>
                                 <p class="dest-name">Olbox island, MEXICO</p>
                             </div>
+                        </a>
                         </div>
 
-                        <div class="image__destsecond destinationcontain__item">
+                        <div class="destinationcontain__item">
+                            <a href="destination.html" class = "button__dest-darkbg">
                             <img src="style/images/Fernando de Noronha, Brazil.jpg">
                             <div class="detail">
                                 <i class="fas fa-map-marker-alt" style="font-size: 25px;"></i>
@@ -209,9 +218,11 @@
                                 </p>
                                 <p class="dest-name">Fernando de Noronha, BRAZIL</p>
                             </div>
+                            </a>
                         </div>
 
                         <div class="destinationcontain__item">
+                            <a href="destination.html" class = "button__dest-darkbg">
                             <img src="style/images/Mu_Cang_Chai_Vietnam.jpg">
                             <div class="detail">
                                 <i class="far fa-compass" style="font-size: 25px;"></i>
@@ -222,9 +233,11 @@
                                 </p>
                                 <p class="dest-name">Mu Cang Chai, VIETNAM</p>
                             </div>
+                            </a>
                         </div>
 
                         <div class="destinationcontain__item">
+                            <a href="destination.html" class = "button__dest-darkbg">
                             <img src="style/images/Oia, Santorini, Greece.jpg">
                             <div class="detail">
                                 <i class="fas fa-map-marker-alt" style="font-size: 25px"></i>
@@ -235,6 +248,7 @@
                                 </p>
                                 <p class="dest-name">Oia, Santorini, GREECE</p>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -247,7 +261,8 @@
                     <h3 class="content__header--lighterwhite">
                         Các tour du lịch tốt nhất và được yêu thích nhất theo BXH khách hàng (Update every month)
                     </h3>
-
+                    
+                    <!--Slider TOUR-->
                     <div class="list-best-tour">
                         <div class="list-best-tour__item">
                             <p class="pricebanner--green">395$</p>
@@ -319,70 +334,87 @@
 
                     <div class="experience-list">
                         <div class="experience-list-row">
+                            
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
                                     Diving
                                 </p>
                                 <img src="style/images/diving.jpg" class="image__experience">
+                                </a>
                             </div>
 
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
                                     White sands
                                 </p>
                                 <img src="style/images/whitesand.png" class="image__experience">
+                                </a>
                             </div>
 
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="far fa-compass" class="icon__experiencecustom--leftbottom"></i>
                                     Family fun
                                 </p>
                                 <img src="style/images/familyfun.jpg" class="image__experience">
+                                </a>
                             </div>
 
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="fas fa-map-marker-alt" class="icon__experiencecustom--leftbottom"></i>
                                     Old colonial towns
                                 </p>
                                 <img src="style/images/oldcolonel.jpg" class="image__experience">
+                                </a>
                             </div>
                         </div>
 
                         <div class="experience-list-row">
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
                                     Romantic getaway
                                 </p>
                                 <img src="style/images/romanticgetaways.jpg" class="image__experience">
+                                </a>
                             </div>
 
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
                                     Snorkeling
                                 </p>
                                 <img src="style/images/snorkeling.png" class="image__experience">
+                                </a>
                             </div>
 
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="far fa-compass" class="icon__experiencecustom--leftbottom"></i>
                                     Beautiful scenery
                                 </p>
                                 <img src="style/images/beautifulscenery.jpg" class="image__experience">
+                                </a>
                             </div>
 
                             <div class="experience-item">
+                                <a href = "activities.html" class ="button__dest-darkbg">
                                 <p class="tittle__experience">
                                     <i class="fas fa-map-marker-alt" class="icon__experiencecustom--leftbottom"></i>
                                     Out door adventure
                                 </p>
                                 <img src="style/images/outdooractivities.jpg" class="image__experience">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -454,7 +486,7 @@
                                 </p>
 
                                 <p class="paragraph__readmore">
-                                    READ MORE
+                                    <a href = "">READ MORE</a>
                                 </p>
                             </td>
                             <td>
@@ -471,7 +503,7 @@
                                 </p>
 
                                 <p class="paragraph__readmore">
-                                    READ MORE
+                                    <a href = "">READ MORE</a>
                                 </p>
                             </td>
                         </tr>
@@ -487,7 +519,7 @@
                                 </p>
 
                                 <p class="paragraph__readmore">
-                                    READ MORE
+                                    <a href = "">READ MORE</a>
                                 </p>
                             </td>
                             <td>
@@ -504,7 +536,7 @@
                                 </p>
 
                                 <p class="paragraph__readmore">
-                                    READ MORE
+                                    <a href = "" class = "link">READ MORE</a>
                                 </p>
                             </td>
                             <td>
@@ -655,23 +687,6 @@
             </div>
         </div>
         <!-- END: FOOTER -->
-    </div>
-
-    <!--EXPERIENCE-->
-
-    <!--INTRODUCTION BEAUTIFUL SCENERY CONTENT-->
-    <div class="login">
-        <form action="">
-            <div class="input-item">
-                <span>Username</span>
-                <input type="text" name="" id="">
-            </div>
-            <div class="input-item">
-                <span>Password</span>
-                <input type="password" name="" id="">
-            </div>
-            <button>SIGN IN</button>
-        </form>
     </div>
 </body>
 

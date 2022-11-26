@@ -5,13 +5,16 @@
 
 .app {
     position: relative;
-    background-image: url("../../images/vecteezy_simple-liquid-background_5470733.jpg");
+    background-image: url("../../images/activities/pexels-ben-mack-6775241.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .content {
-    padding-top: 30px;
+    padding-top: 100px;
     width: 100%;
-    height: 100vh;
+    height: 800px;
     overflow: hidden;
 }
 
