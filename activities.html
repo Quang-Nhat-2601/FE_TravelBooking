@@ -24,6 +24,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
 
+    <script>
+        $(document).ready(function () {
+            $(".login").hide()
+            $("#signin-option").click(function () {
+                window.location.href = 'sigin.html'
+            });
+    
+            $("#signup-option").click(function () {
+                window.location.href = 'signup.html'
+            })
+        });
+    </script>
 </head>
 
 <body>
