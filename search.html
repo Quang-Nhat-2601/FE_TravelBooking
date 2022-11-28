@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookingUIT</title>
+    <title>Searching</title>
 
-    <link rel="stylesheet" href="style/css/destination.css">
+    <link rel="stylesheet" href="style/css/search/search.css">
     <link rel="stylesheet" href="style/css/index.css">
     <link rel="stylesheet" href="style/css/reset.css">
     <link rel="stylesheet" href="style/css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -38,10 +36,12 @@
 </script>
 <!--COMMENT PUSH PULL-->
 
+<script src="./js/search.js"></script>
+
 <body>
     <div class="app">
-         <!-- BEGIN: HEADER -->
-         <div class="header">
+        <!-- BEGIN: HEADER -->
+        <div class="header">
             <div class="logo-container">
                 <a href="index.html">
                     <img src="./style/images/logo_link.png" alt="" width="162px">
@@ -101,157 +101,193 @@
         </div>
         <!-- END: HEADER -->
 
-
         <div class="bannercontainer__destination">
             <img src="style/images/destination_banner.jpg" class="topbanner__destination">
-            <h1 class="title__destination">Tour Category: Destination</h1>
-            <p class="title__destination--sub">
-                <a href = "index.html" class = "link__destinationhome--green">Home</a>//Destination
-            </p>
-        </div>
+            <h1 class="title__destination">Where would you want to go?</h1>
 
-        <div id="middle__destination">
-            <div id="leftpane__destination">
-
-                <div class=destination__item>
-                    <img src="style/images/Guadelope.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href = "destination_guadeloupe.html"  class = "link__destination--blacknoline">Guadelope</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
+            <div class="search-container">
+                <div class="search-container__text">
+                    <input type="text" name="" id="">
                 </div>
 
-                <div class=destination__item>
-                    <img src="style/images/jamaica.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href = "destination _jamaica.html" class = "link__destination--blacknoline">Jamaica</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/nhatrang_destination.jpg" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href = "destination_nhatrang.html"  class = "link__destination--blacknoline">Nha Trang</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/london.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href = "destination_london.html"  class = "link__destination--blacknoline">London</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/losangeles.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href = "destination_losangeles.html"  class = "link__destination--blacknoline">Los Angeles</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/banahill.jpg" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href = "destination_banahill.html"  class = "link__destination--blacknoline">Ba Na Hill</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-            </div>
-
-            <div id="rightpane__destination">
-                <div class="search__destination">
-                    <h2 class="header__destination--lightersmaller">SEARCH</h2>
-                    <input type="text" placeholder="Search destination... " class="searchbar__destination"
-                        maxlength="100" size="35">
+                <div class="search-container__icon">
+                    <img src="./style/images/icons8_search_38px.png" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="clear">
+        <div class="content">
+            <div class="category">
+                <h3>
+                    <i class="fa-solid fa-list"></i>
+                    Category
+                </h3>
+                <ul class="category-list">
+                    <li class="category-item">
+                        <h5><a href="" class="category-item__link">Europe</a></h5>
+                    </li>
+                    <li class="category-item">
+                        <h5><a href="" class="category-item__link">Asia</a></h5>
+                    </li>
+                    <li class="category-item">
+                        <h5><a href="" class="category-item__link">America</a></h5>
+                    </li>
+                    <li class="category-item">
+                        <h5><a href="" class="category-item__link">Africa</a></h5>
+                    </li>
 
+                    <li class="category-item">
+                        <h5>Activities</h5>
+                        <ul class="category-submenu">
+                            <li><a href="" class="category-subitem__link">Inbound</a></li>
+                            <li><a href="" class="category-subitem__link">Outbound</a></li>
+                            <li><a href="" class="category-subitem__link">Volunteer</a></li>
+                            <li><a href="" class="category-subitem__link">Backpacker</a></li>
+                            <li><a href="" class="category-subitem__link">Cruise</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="category-item category-item--rating">
+                        <h5><a href="" class="category-item__link">Rating</a></h5>
+                        <!-- <label for="customRange2" class="form-label">Star</label> -->
+                        <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="destination-list">
+                <h3 class="search-result">Search Result</h3>
+
+                <div class="destination-list__row row">
+                    <div class="destination__item col">
+                        <a href="destination_curacao.html">
+                            <img src="style/images/curacao.jpg" class="image__destinationitemcustom">
+
+                            <h4 class="header__destination--lighter">
+                                Curacao
+                            </h4>
+
+                            <p>
+                                Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
+                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle
+                                ball
+                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                                chicken meatloaf.
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="destination__item col">
+                        <a href="destination_jamaica.html">
+                            <img src="style/images/jamaica.png" class="image__destinationitemcustom">
+
+                            <h4 class="header__destination--lighter">
+                                Jamaica
+                            </h4>
+
+                            <p>
+                                Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
+                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle
+                                ball
+                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                                chicken meatloaf.
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="destination__item col">
+                        <a href="destination_london.html">
+                            <img src="style/images/london.png" class="image__destinationitemcustom">
+
+                            <h4 class="header__destination--lighter">
+                                London
+                            </h4>
+
+                            <p>
+                                Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
+                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle
+                                ball
+                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                                chicken meatloaf.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="destination-list__row row">
+                    <div class="destination__item col">
+                        <a href="destination_losangeles.html">
+                            <img src="style/images/losangeles.png" class="image__destinationitemcustom">
+
+                            <h4 class="header__destination--lighter">
+                                Los Angeles
+                            </h4>
+
+                            <p>
+                                Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
+                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle
+                                ball
+                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                                chicken meatloaf.
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="destination__item col">
+                        <a href="destination_banahill.html">
+                            <img src="style/images/banahill.jpg" class="image__destinationitemcustom">
+
+                            <h4 class="header__destination--lighter">
+                                Ba Na Hill
+                            </h4>
+
+                            <p>
+                                Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
+                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle
+                                ball
+                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                                chicken meatloaf.
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="destination__item col">
+                        <img src="style/images/arenal-volcano.jpg" class="image__destinationitemcustom">
+
+                        <h4 class="header__destination--lighter">
+                            Arenal Volcano
+                        </h4>
+
+                        <p>
+                            Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
+                            venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle
+                            ball
+                            tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                            chicken meatloaf.
+                        </p>
+                    </div>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
 
