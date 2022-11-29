@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookingUIT</title>
+    <title>Add your Exeperience</title>
 
-    <link rel="stylesheet" href="style/css/destination.css">
-    <link rel="stylesheet" href="style/css/index.css">
+    <link rel="stylesheet" href="style/css/review/review.css">
     <link rel="stylesheet" href="style/css/reset.css">
     <link rel="stylesheet" href="style/css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -24,19 +21,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
 </head>
-<script>
-    $(document).ready(function () {
-        $(".login").hide()
-        $("#signin-option").click(function () {
-            window.location.href = 'sigin.html'
-        });
-
-        $("#signup-option").click(function () {
-            window.location.href = 'signup.html'
-        })
-    });
-</script>
-<!--COMMENT PUSH PULL-->
 
 <body>
     <div class="app">
@@ -93,167 +77,65 @@
                     </li>
                 </ul>
             </div>
+        </div><div class="header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="./style/images/logo_link.png" alt="" width="162px">
+                </a>
+            </div>
+
+            <div class="search-bar-container" id="search-box">
+                <img src="./style/images/Search_46px.png" alt="">
+                <div class="input-container searchbox-container">
+                    <input class="fw-5" type="text" name="search-header" id="search-input"
+                        placeholder="Search your favorite destination">
+                </div>
+            </div>
+
+            <div class=" menu">
+                <ul class="main-menu">
+                    <li class="main-menu-item">
+                        <a href="index.html" class="fw-5">HOME</a>
+                    </li>
+
+                    <li class="main-menu-item main-menu-item--have-sub">
+                        <a href="destination.html" class="fw-5">
+                            DESTINATION
+                        </a>
+                        <ul class="sub-menu sub-menu--destionations">
+                            <li><a href="destination_curacao.html">Curacao</a></li>
+                            <li><a href="destination_guadeloupe.html">Guadelope</a></li>
+                            <li><a href="destination_jamaica.html">Jamaica</a></li>
+                            <li><a href="destination_nhatrang.html">Nha Trang</a></li>
+                            <li><a href="destination_london.html">London</a></li>
+                            <li><a href="destination_losangeles.html">Los Angeles</a></li>
+                            <li><a href="destination_banahill.html">Ba Na Hill</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="main-menu-item">
+                        <a href="review.html" class="fw-5">REVIEW</a>
+                    </li>
+                    <li class="main-menu-item ">
+                        <a href="aboutUs.html" class="fw-5">ABOUT US</a>
+                    </li>
+                    <li class="main-menu-item main-menu-item--have-sub">
+                        <a href="" class="fw-5">ACCOUNT</a>
+
+                        <ul class="sub-menu">
+                            <li id="signin-option"><a href="sigin.html">SIGN IN</a></li>
+                            <li id="signup-option"><a href="signup.html">SIGN UP</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- END: HEADER -->
 
-
-        <div class="bannercontainer__destination">
-            <img src="style/images/destination_banner.jpg" class="topbanner__destination">
-            <h1 class="title__destination">Tour Category: Destination</h1>
-            <p class="title__destination--sub">
-                <a href="index.html" class="link__destinationhome--green">Home</a>//Destination
-            </p>
+        <!-- BEGIN: CONTENT -->
+        <div class="content">
+            
         </div>
-
-        <div id="middle__destination">
-            <div id="leftpane__destination">
-
-                <div class=destination__item>
-                    <img src="style/images/Guadelope.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href="destination_guadeloupe.html"
-                                        class="link__destination--blacknoline">Guadelope</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/jamaica.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href="destination _jamaica.html"
-                                        class="link__destination--blacknoline">Jamaica</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/nhatrang_destination.jpg" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href="destination_nhatrang.html" class="link__destination--blacknoline">Nha
-                                        Trang</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/london.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href="destination_london.html" class="link__destination--blacknoline">London</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/losangeles.png" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href="destination_losangeles.html" class="link__destination--blacknoline">Los
-                                        Angeles</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-                <div class=destination__item>
-                    <img src="style/images/banahill.jpg" class="image__destinationitemcustom">
-
-                    <table class="tablecontent__destination">
-                        <tr>
-                            <td>
-                                <h4 class="header__destination--lighter">
-                                    <a href="destination_banahill.html" class="link__destination--blacknoline">Ba Na
-                                        Hill</a>
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger
-                                venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball
-                                tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
-                                chicken meatloaf.</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-            </div>
-
-            <div id="rightpane__destination">
-                <div class="search__destination">
-                    <h2 class="header__destination--lightersmaller">SEARCH</h2>
-                    <input type="text" placeholder="Search destination... " class="searchbar__destination"
-                        maxlength="100" size="35">
-                </div>
-            </div>
-        </div>
-
-        <div class="clear">
-
-        </div>
-
 
         <!-- BEGIN: FOOTER -->
         <div class="footer">
@@ -337,14 +219,13 @@
             <hr style="border-width: 2px; color: #ccc">
 
             <div class="copy-right">
-                © 2020 Copyright:
+                © 2022 Copyright:
                 <a class="text-white" href="https://mdbootstrap.com/">Hoa - Phat - Nhat</a>
             </div>
         </div>
-        <!-- END: FOOTER -->
-
     </div>
-    <script src="./js/header_function.js"></script>
+
+    <script src="./js/review.js"></script>
 </body>
 
 </html>

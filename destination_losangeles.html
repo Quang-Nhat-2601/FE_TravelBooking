@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="style/css/reset.css">
     <link rel="stylesheet" href="style/css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel = "stylesheet" href = "style/css/index.css">
-    <link rel = "stylesheet" href = "style/css/destination_details.css">
+    <link rel="stylesheet" href="style/css/index.css">
+    <link rel="stylesheet" href="style/css/destination_details.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -38,36 +38,39 @@
     });
 </script>
 <!--COMMENT PUSH PULL-->
+
 <body>
     <div class="app">
-         <!-- BEGIN: HEADER -->
-         <div class="header">
+        <!-- BEGIN: HEADER -->
+        <div class="header">
             <div class="logo-container">
                 <a href="index.html">
                     <img src="./style/images/logo_link.png" alt="" width="162px">
                 </a>
             </div>
-            <div class="search-bar-container">
+
+            <div class="search-bar-container" id="search-box">
                 <img src="./style/images/Search_46px.png" alt="">
                 <div class="input-container searchbox-container">
-                    <input class="fw-5" type="text" name="search-header" id=""
+                    <input class="fw-5" type="text" name="search-header" id="search-input"
                         placeholder="Search your favorite destination">
                 </div>
             </div>
-            <div class="menu">
+
+            <div class=" menu">
                 <ul class="main-menu">
                     <li class="main-menu-item">
                         <a href="index.html" class="fw-5">HOME</a>
                     </li>
 
-                    <li class="main-menu-item">
+                    <li class="main-menu-item main-menu-item--have-sub">
                         <a href="destination.html" class="fw-5">
                             DESTINATION
                         </a>
-                        <ul class="sub-menu">
+                        <ul class="sub-menu sub-menu--destionations">
                             <li><a href="destination_curacao.html">Curacao</a></li>
                             <li><a href="destination_guadeloupe.html">Guadelope</a></li>
-                            <li><a href="destination _jamaica.html">Jamaica</a></li>
+                            <li><a href="destination_jamaica.html">Jamaica</a></li>
                             <li><a href="destination_nhatrang.html">Nha Trang</a></li>
                             <li><a href="destination_london.html">London</a></li>
                             <li><a href="destination_losangeles.html">Los Angeles</a></li>
@@ -76,24 +79,17 @@
                     </li>
 
                     <li class="main-menu-item">
-                        <a href="activities.html" class="fw-5">ACTIVITIES</a>
-                        <ul class="sub-menu">
-                            <li><a href="">Inbound</a></li>
-                            <li><a href="">Outbound</a></li>
-                            <li><a href="">Leisure</a></li>
-                            <li><a href="">Adventure</a></li>
-                            <li><a href="">More</a></li>
-                        </ul>
+                        <a href="review.html" class="fw-5">REVIEW</a>
                     </li>
-                    <li class="main-menu-item">
+                    <li class="main-menu-item ">
                         <a href="aboutUs.html" class="fw-5">ABOUT US</a>
                     </li>
-                    <li class="main-menu-item">
+                    <li class="main-menu-item main-menu-item--have-sub">
                         <a href="" class="fw-5">ACCOUNT</a>
 
                         <ul class="sub-menu">
-                            <li id="signin-option">SIGN-IN</li>
-                            <li id="signup-option">SIGN-UP</li>
+                            <li id="signin-option"><a href="sigin.html">SIGN IN</a></li>
+                            <li id="signup-option"><a href="signup.html">SIGN UP</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -103,256 +99,282 @@
 
 
         <!--BANNER-->
-        <div class = "bannercontainer__destinationdetail">
-                <img src = "style/images/losangeles.png" class = "topbanner__destinationdetail">
-            <h1 class = "title__destinationdetail">Los Angeles</h1>
-            <p class = "title__destination--subdetail">
-                <a href = "index.html" class = "link__destinationhome--green">Home</a>//Destination
+        <div class="bannercontainer__destinationdetail">
+            <img src="style/images/losangeles.png" class="topbanner__destinationdetail">
+            <h1 class="title__destinationdetail">Los Angeles</h1>
+            <p class="title__destination--subdetail">
+                <a href="index.html" class="link__destinationhome--green">Home</a>//Destination
             </p>
         </div>
         <!--END BANNER-->
 
         <!--START CONTENT-->
-        <div class = "content">
-                <!--START MAIN DEST-->
-                <div class = "middle__destinationdetail"> 
-                    <div class = destination__itemdetail>
-                        
-                        <!--START INTRO WELCOME-->
-                        <h1 class = "title__contentdest">Welcome to Los Angeles!</h1>
-                        <p class = "item__contentdest">
-                            Bacon ipsum dolor amet porchetta hamburger swine, ball tip bresaola short ribs fatback strip steak ground round rump. Alcatra shankle ham hock frankfurter, bacon pork loin cow salami meatball hamburger venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball shankle ball tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak chicken meatloaf. Drumstick ham hamburger, shankle alcatra shoulder tenderloin ground round. Cupim bacon beef ribs ball tip tongue pork rump.
-                        </p>
-                        <!--END INTRO WELCOME-->
+        <div class="content">
+            <!--START MAIN DEST-->
+            <div class="middle__destinationdetail">
+                <div class=destination__itemdetail>
 
-                        <!--START SIGHT-->
-                        <i class="fas fa-camera" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">SIGHTS</span>
-                    
-                        <hr class = "linecontent__dest">
+                    <!--START INTRO WELCOME-->
+                    <h1 class="title__contentdest">Welcome to Los Angeles!</h1>
+                    <p class="item__contentdest">
+                        Bacon ipsum dolor amet porchetta hamburger swine, ball tip bresaola short ribs fatback strip
+                        steak ground round rump. Alcatra shankle ham hock frankfurter, bacon pork loin cow salami
+                        meatball hamburger venison tail bresaola. Tri-tip bresaola bacon strip steak kevin meatball
+                        shankle ball tip tenderloin sausage beef ribs spare ribs tongue filet mignon. Chuck strip steak
+                        chicken meatloaf. Drumstick ham hamburger, shankle alcatra shoulder tenderloin ground round.
+                        Cupim bacon beef ribs ball tip tongue pork rump.
+                    </p>
+                    <!--END INTRO WELCOME-->
 
-                        <img src = "style/images//curacao_01.jpeg" class = "image__sight">
-                        <img src = "style/images/curacao_02.png" class = "image__sight">
+                    <!--START SIGHT-->
+                    <i class="fas fa-camera" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i>
+                    <span style="color: gray; font-weight: 100;">SIGHTS</span>
 
-                        <img src = "style/images/curacao.jpg" class = "image__sight">
-                    
-                        <!--END SIGHT-->
+                    <hr class="linecontent__dest">
 
-                        <!--START MAP-->
-                        <i class="fas fa-map" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">MAP</span>
-                        <hr class = "linecontent__dest">
-                        <iframe class = "map__embedded--resize" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.2740908214!2d-118.69192340304039!3d34.020161299892294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1669089971386!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <!--END MAP-->
+                    <img src="style/images//curacao_01.jpeg" class="image__sight">
+                    <img src="style/images/curacao_02.png" class="image__sight">
 
-                        <!--START INFO-->
-                        <i class="fas fa-info-circle" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">INFO</span>
-                        <hr class = "linecontent__dest">
-                        <p class = "item__contentdest">
-                            Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.
-                        </p>
-                        <!--END INFO-->
-                        
-                        <!--START RECOMMEND TOUR-->
-                        <h1 class = "title__recommendtours">Recommend Tours to Los Angeles:</h1> <!--TITLE RECOMMEND-->
-                        
-                        <div class = "table__experiencecontainer">
-                            <div class = "contain__recommendtour"> 
-                                <p class = "pricebannerdetail--leftgreen">180$</p>
-                                <p class = "title__imagercmndtours" >
-                                    <i class="fas fa-camera" class = "icon__experiencecustom--leftbottom"></i>
-                                    <br>Snorkeling
-                                </p>
-                                <img src = "style/images/snorkeling.png" class = "image__reccomendtours">             
-                                <p style = "margin-top: 10px;">&#11088 &#11088 &#11088 &#11088 &#11088</p>
-                            </div>
+                    <img src="style/images/curacao.jpg" class="image__sight">
 
-                            <div  class = "contain__recommendtour">
-                                <p class = "pricebannerdetail--leftgreen">1200$</p>
-                                <p class = "title__imagercmndtours">
-                                    
-                                    <i class="far fa-compass" class = "icon__experiencecustom--leftbottom"></i>
-                                    <br>Beautiful scenery
-                                </p>
-                                <img src = "style/images/beautifulscenery.jpg" class = "image__reccomendtours">
-                                <p style = "margin-top: 10px;">&#11088 &#11088 &#11088 &#11088 &#11088</p>
-                            </div>
-                            
-                            <div  class = "contain__recommendtour">
-                                <p class = "pricebannerdetail--leftgreen">2500$</p>
-                                <p class = "title__imagercmndtours">      
-                                    <i class="fas fa-map-marker-alt" class = "icon__experiencecustom--leftbottom"></i>
-                                    <br>Out door adventure
-                                </p>
-                                <img src = "style/images/outdooractivities.jpg" class = "image__reccomendtours">
-                                <p style = "margin-top: 10px;">&#11088 &#11088 &#11088 &#11088</p>
-                            </div>
+                    <!--END SIGHT-->
+
+                    <!--START MAP-->
+                    <i class="fas fa-map" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i>
+                    <span style="color: gray; font-weight: 100;">MAP</span>
+                    <hr class="linecontent__dest">
+                    <iframe class="map__embedded--resize"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.2740908214!2d-118.69192340304039!3d34.020161299892294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1669089971386!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!--END MAP-->
+
+                    <!--START INFO-->
+                    <i class="fas fa-info-circle"
+                        style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span
+                        style="color: gray; font-weight: 100;">INFO</span>
+                    <hr class="linecontent__dest">
+                    <p class="item__contentdest">
+                        Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate
+                        nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id
+                        felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan
+                        magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus.
+                        Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque
+                        nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl.
+                        Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.
+                    </p>
+                    <!--END INFO-->
+
+                    <!--START RECOMMEND TOUR-->
+                    <h1 class="title__recommendtours">Recommend Tours to Los Angeles:</h1>
+                    <!--TITLE RECOMMEND-->
+
+                    <div class="table__experiencecontainer">
+                        <div class="contain__recommendtour">
+                            <p class="pricebannerdetail--leftgreen">180$</p>
+                            <p class="title__imagercmndtours">
+                                <i class="fas fa-camera" class="icon__experiencecustom--leftbottom"></i>
+                                <br>Snorkeling
+                            </p>
+                            <img src="style/images/snorkeling.png" class="image__reccomendtours">
+                            <p style="margin-top: 10px;">&#11088 &#11088 &#11088 &#11088 &#11088</p>
                         </div>
-                        <!--END  RECOMMEND-->
 
-                        <hr style = "margin-top: 150px; ">
-                        
-                        <!--DIRECT SWITCH PAGES-->
-                        <div>
-                            <div class = "left__direction">
-                                <h3 style = "font-size: 19px;">Previous</h3>
-                                <h1  style = "font-size: 40px;font-weight: 350;">
-                                    <a href = "destination _jamaica.html" class = "link__destination--blacknoline">Jamaica</a>
-                                </h1>
-                            </div>
-                       
-                            <div class = "right__direction">
-                                <h3 style = "font-size: 19px;">Next</h3>
-                                <h1 style = "font-size: 40px;font-weight: 350;">
-                                    <a href = "destination_guadeloupe.html" class = "link__destination--blacknoline">Guadeloupe</a>
-                                </h1>
-                            </div>
+                        <div class="contain__recommendtour">
+                            <p class="pricebannerdetail--leftgreen">1200$</p>
+                            <p class="title__imagercmndtours">
+
+                                <i class="far fa-compass" class="icon__experiencecustom--leftbottom"></i>
+                                <br>Beautiful scenery
+                            </p>
+                            <img src="style/images/beautifulscenery.jpg" class="image__reccomendtours">
+                            <p style="margin-top: 10px;">&#11088 &#11088 &#11088 &#11088 &#11088</p>
                         </div>
-                        <!--END DIRECT SWITCH PAGES-->
-                    
+
+                        <div class="contain__recommendtour">
+                            <p class="pricebannerdetail--leftgreen">2500$</p>
+                            <p class="title__imagercmndtours">
+                                <i class="fas fa-map-marker-alt" class="icon__experiencecustom--leftbottom"></i>
+                                <br>Out door adventure
+                            </p>
+                            <img src="style/images/outdooractivities.jpg" class="image__reccomendtours">
+                            <p style="margin-top: 10px;">&#11088 &#11088 &#11088 &#11088</p>
+                        </div>
                     </div>
+                    <!--END  RECOMMEND-->
+
+                    <hr style="margin-top: 150px; ">
+
+                    <!--DIRECT SWITCH PAGES-->
+                    <div>
+                        <div class="left__direction">
+                            <h3 style="font-size: 19px;">Previous</h3>
+                            <h1 style="font-size: 40px;font-weight: 350;">
+                                <a href="destination _jamaica.html" class="link__destination--blacknoline">Jamaica</a>
+                            </h1>
+                        </div>
+
+                        <div class="right__direction">
+                            <h3 style="font-size: 19px;">Next</h3>
+                            <h1 style="font-size: 40px;font-weight: 350;">
+                                <a href="destination_guadeloupe.html"
+                                    class="link__destination--blacknoline">Guadeloupe</a>
+                            </h1>
+                        </div>
+                    </div>
+                    <!--END DIRECT SWITCH PAGES-->
+
+                </div>
                 <!--END MAIN DEST-->
-                
-                        <!--START SHARING DESTINATION-->
-                        <div  style = "margin-left: 150px; margin-top: 100px;">
-                            <h4 style = "font-weight: 400;">SHARE THIS DESTINATION</h4>
-                            <div style = " width:300px;display: flex;justify-content:space-between;">
-                                <a href = "" class = "link__destination--bluenoline">FACEBOOK</a> 
-                                <a href = "" class = "link__destination--bluenoline">TWITTER</a>
-                                <a href = "" class = "link__destination--bluenoline">PINTEREST</a>
-                            </div>
-                        </div>
-                        <!--END SHARING DESTINATION-->
-                
-                <!--START USER REVIEW-->
-                        <div style = "margin-top: 100px; padding:10px">
-                            <h4 style = "margin-left: 150px; font-weight: 400;">LEAVE A REVIEW</h4>
-                            <h5 style = "margin-left: 150px;margin-top: 35px;font-weight: 300; font-size: 15px; color:gray">Your email address will not be published.</h5>
-                    
-                            <form>
-                                <table class = "tablereviewform">
-                                    <tr>
-                                        <td>NAME:</td>
-                                        <td>EMAIL:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <input class = "textinput__comment" type = "text" id = "name" placeholder="Your name *" size = "70" maxlength="100">
-                                        </td>
-                                        <td>
-                                             <input class = "textinput__comment"  type = "text" id = "email" placeholder="Your email *"  size = "70" maxlength="100">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">YOUR REVIEW:</td>    
-                                    </tr>
-                                    <tr>
-                                        <td colspan = "2">
-                                            <textarea class = "textinput__comment" rows="10" cols="153" placeholder="Message"></textarea>
-                                        </td>
-                                    </tr>
 
-                                     <tr>
-                                        <td>
-                                            <p class = "button__addreview">ADD REVIEW</p>
-                                        </td>
-                                    </tr>
-                                    <div  class = "button__backtotop"><a href='#' title="Back to top"><i class="fas fa-chevron-circle-up" style = "color:green"></i></a></div>
-                                </table>
-                            </form>
-                        </div>  
-                    </div>
-                </div>                         
-            </div>  
-        </div>
-         <!--END CONTENT-->
-
-            <!--START FOOTER-->
-            <div class="footer">
-                <div class="footer-container">
-                    <div class="footer-about-us-vs-receive-tour footer-item">
-                        <div class="footer-item__about-us">
-                            <h3 class="footer-item__header">
-                                About Us
-                            </h3>
-    
-                            Coolmate thành lập vào tháng 3/2019, Nhu (CEO), Hiệp (CTO) và Lan (CMO) khởi đầu với một nhà kho
-                            20m2, và một Website bán hàng sơ khai, với các sản phẩm rất cơ bản dành cho nam giới như áo
-                            thun, bít tất và đồ lót. Sau 3 năm, thì ngày hôm nay Coolmate đã có sự trưởng thành đáng kể.
-    
-                            <p><a href="aboutUs.html">Click here for more information</a></p>
-                        </div>
-    
-                        <div class="footer-item__receive-tour">
-                            <h3 class="footer-item__header">
-                                Receive Excellent Tour
-                            </h3>
-    
-                            <div class="form-receive">
-                                <div class="send-email">
-                                    <input type="email" name="receive-tour-email" id="receive-tour-email"
-                                        placeholder="Enter your e-mail here">
-                                    <a href="">
-                                        <img src="./style/images/icons8_email_send_30px_2.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="footer-contact footer-item">
-                        <h3 class="footer-item__header">Contact Us</h3>
-    
-                        <div class="footer-contact__phone">
-                            <p><img src="./style/images/icons8_phone_48px.png" alt="">+84 123456789</p>
-                        </div>
-    
-                        <div class="footer-contact__email">
-                            <p><img src="./style/images/icons8_envelope_48px.png" alt="">info@gmail.com</p>
-                        </div>
-    
-    
-                        <h3 class="footer-item__header">Social Networks</h3>
-                        <div class="footer-contact__social-media">
-                            <a href="">
-                                <img src="./style/images/icons8_facebook_48px.png" alt="" class="social-media-icon">
-                            </a>
-                            <a href="">
-                                <img src="./style/images/icons8_instagram_48px.png" alt="" class="social-media-icon">
-                            </a>
-                            <a href="">
-                                <img src="./style/images/icons8_linkedin_48px.png" alt="" class="social-media-icon">
-                            </a>
-                            <a href="">
-                                <img src="./style/images/icons8_twitter_squared_48px.png" alt="" class="social-media-icon">
-                            </a>
-                        </div>
-                    </div>
-    
-                    <div class="footer-top-tour-img footer-item">
-                        <h3 class="footer-item__header">Top Tours</h3>
-    
-                        <div class="footer-top-tour-img__img-container">
-                            <div class="footer-top-tour-img__img-container-row">
-                                <a href=""><img src="./style/images/Dubai_explore-tour.png" alt="" class="tour-image"></a>
-                                <a href=""><img src="./style/images/vietnam_explore-tour.jpg" alt="" class="tour-image"></a>
-                            </div>
-    
-                            <div class="footer-top-tour-img__img-container-row">
-                                <a href=""><img src="./style/images/France_explore-tour.jpg" alt="" class="tour-image"></a>
-                                <a href=""><img src="./style/images/Norway_explore-tour.jpg" alt="" class="tour-image"></a>
-                            </div>
-                        </div>
+                <!--START SHARING DESTINATION-->
+                <div style="margin-left: 150px; margin-top: 100px;">
+                    <h4 style="font-weight: 400;">SHARE THIS DESTINATION</h4>
+                    <div style=" width:300px;display: flex;justify-content:space-between;">
+                        <a href="" class="link__destination--bluenoline">FACEBOOK</a>
+                        <a href="" class="link__destination--bluenoline">TWITTER</a>
+                        <a href="" class="link__destination--bluenoline">PINTEREST</a>
                     </div>
                 </div>
-    
-                <hr style="border-width: 2px; color: #ccc">
-    
-                <div class="copy-right">
-                    © 2022 Copyright:
-                    <a class="text-white" href="https://mdbootstrap.com/">Hoa - Phat - Nhat</a>
+                <!--END SHARING DESTINATION-->
+
+                <!--START USER REVIEW-->
+                <div style="margin-top: 100px; padding:10px">
+                    <h4 style="margin-left: 150px; font-weight: 400;">LEAVE A REVIEW</h4>
+                    <h5 style="margin-left: 150px;margin-top: 35px;font-weight: 300; font-size: 15px; color:gray">Your
+                        email address will not be published.</h5>
+
+                    <form>
+                        <table class="tablereviewform">
+                            <tr>
+                                <td>NAME:</td>
+                                <td>EMAIL:</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="textinput__comment" type="text" id="name" placeholder="Your name *"
+                                        size="70" maxlength="100">
+                                </td>
+                                <td>
+                                    <input class="textinput__comment" type="text" id="email" placeholder="Your email *"
+                                        size="70" maxlength="100">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">YOUR REVIEW:</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <textarea class="textinput__comment" rows="10" cols="153"
+                                        placeholder="Message"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p class="button__addreview">ADD REVIEW</p>
+                                </td>
+                            </tr>
+                            <div class="button__backtotop"><a href='#' title="Back to top"><i
+                                        class="fas fa-chevron-circle-up" style="color:green"></i></a></div>
+                        </table>
+                    </form>
                 </div>
             </div>
-            <!--END FOOTER-->
+        </div>
     </div>
+    </div>
+    <!--END CONTENT-->
+
+    <!--START FOOTER-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-about-us-vs-receive-tour footer-item">
+                <div class="footer-item__about-us">
+                    <h3 class="footer-item__header">
+                        About Us
+                    </h3>
+
+                    Coolmate thành lập vào tháng 3/2019, Nhu (CEO), Hiệp (CTO) và Lan (CMO) khởi đầu với một nhà kho
+                    20m2, và một Website bán hàng sơ khai, với các sản phẩm rất cơ bản dành cho nam giới như áo
+                    thun, bít tất và đồ lót. Sau 3 năm, thì ngày hôm nay Coolmate đã có sự trưởng thành đáng kể.
+
+                    <p><a href="aboutUs.html">Click here for more information</a></p>
+                </div>
+
+                <div class="footer-item__receive-tour">
+                    <h3 class="footer-item__header">
+                        Receive Excellent Tour
+                    </h3>
+
+                    <div class="form-receive">
+                        <div class="send-email">
+                            <input type="email" name="receive-tour-email" id="receive-tour-email"
+                                placeholder="Enter your e-mail here">
+                            <a href="">
+                                <img src="./style/images/icons8_email_send_30px_2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-contact footer-item">
+                <h3 class="footer-item__header">Contact Us</h3>
+
+                <div class="footer-contact__phone">
+                    <p><img src="./style/images/icons8_phone_48px.png" alt="">+84 123456789</p>
+                </div>
+
+                <div class="footer-contact__email">
+                    <p><img src="./style/images/icons8_envelope_48px.png" alt="">info@gmail.com</p>
+                </div>
+
+
+                <h3 class="footer-item__header">Social Networks</h3>
+                <div class="footer-contact__social-media">
+                    <a href="">
+                        <img src="./style/images/icons8_facebook_48px.png" alt="" class="social-media-icon">
+                    </a>
+                    <a href="">
+                        <img src="./style/images/icons8_instagram_48px.png" alt="" class="social-media-icon">
+                    </a>
+                    <a href="">
+                        <img src="./style/images/icons8_linkedin_48px.png" alt="" class="social-media-icon">
+                    </a>
+                    <a href="">
+                        <img src="./style/images/icons8_twitter_squared_48px.png" alt="" class="social-media-icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-top-tour-img footer-item">
+                <h3 class="footer-item__header">Top Tours</h3>
+
+                <div class="footer-top-tour-img__img-container">
+                    <div class="footer-top-tour-img__img-container-row">
+                        <a href=""><img src="./style/images/Dubai_explore-tour.png" alt="" class="tour-image"></a>
+                        <a href=""><img src="./style/images/vietnam_explore-tour.jpg" alt="" class="tour-image"></a>
+                    </div>
+
+                    <div class="footer-top-tour-img__img-container-row">
+                        <a href=""><img src="./style/images/France_explore-tour.jpg" alt="" class="tour-image"></a>
+                        <a href=""><img src="./style/images/Norway_explore-tour.jpg" alt="" class="tour-image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr style="border-width: 2px; color: #ccc">
+
+        <div class="copy-right">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Hoa - Phat - Nhat</a>
+        </div>
+    </div>
+    <!--END FOOTER-->
+    </div>
+    <script src="./js/header_function.js"></script>
 </body>
 
 </html>
