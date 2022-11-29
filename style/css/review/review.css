@@ -1,0 +1,54 @@
+.content {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 12vh;
+}
+
+.add-review {
+    position: relative;
+    top: 9vh;
+    padding: 6px;
+    background-color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.add-review:hover {
+    color: coral;
+}
+
+.top-exp-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-exp-item {
+    margin: 20px 0;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.top-exp-item img {
+    width: 400px;
+    height: 400px;
+}
+
+.top-exp-item h4 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.top-exp-item:hover {
+    scale: 1.1;
+}
+
+.top-exp-item:hover a {
+    text-decoration: underline;
+}
