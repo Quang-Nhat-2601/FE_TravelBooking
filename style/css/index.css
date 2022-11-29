@@ -128,10 +128,26 @@
 }
 
 .content__header--lighterwhite {
-  padding-top: 30px;
-  color: white;
-  font-weight: lighter;
+  color: #fff;
   text-align: center;
+  font-weight: lighter;
+}
+
+
+.content__header--sub {
+  margin: 20px 340px;
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.content__header--sub-white {
+  margin: 20px 340px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: lighter;
 }
 
 .content__header--boldwhite {
@@ -166,15 +182,19 @@
 
 .button__register--blue {
   height: 70px;
-  width: 170px;
+  width: 250px;
   border-radius: 3px;
   background-color: #149DC8;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button__register--blue a {
+  color: #000;
+  text-decoration: none;
   font-size: 20px;
-  cursor: pointer;
 }
 
 .button__register--blue:hover {
@@ -184,18 +204,20 @@
 
 .button__register--green {
   height: 70px;
-  width: 170px;
+  width: 250px;
   border-radius: 3px;
   background-color: #22BE67;
-
   margin-right: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+}
 
+.button__register--green a {
+  color: #000;
+  text-decoration: none;
   font-size: 20px;
-  cursor: pointer;
 }
 
 .button__register--green:hover {
@@ -260,8 +282,7 @@
   background-position: top;
 }
 
-.list-best-tour__item:hover
-{
+.list-best-tour__item:hover {
   filter: brightness(80%);
   display: inline-block;
   position: relative;
@@ -582,15 +603,13 @@
 
 /*add dark_background effecr when pointer points*/
 
-.button__dest-darkbg
-{
+.button__dest-darkbg {
   transition: 0.5s;
   display: block;
   color: #fff;
 }
 
-.button__dest-darkbg:hover
-{
+.button__dest-darkbg:hover {
   filter: brightness(80%);
   background-position: bottom;
 }

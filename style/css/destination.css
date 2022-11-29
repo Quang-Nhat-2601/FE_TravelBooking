@@ -1,7 +1,6 @@
 .bannercontainer__destination {
   position: relative;
   color: white;
-
   width: 100%;
   height: 370px;
   margin-left: auto;
@@ -23,6 +22,7 @@
   left: 100px;
   font-weight: 100;
   font-size: 70px;
+  text-align: center;
 }
 
 .title__destination--sub {
