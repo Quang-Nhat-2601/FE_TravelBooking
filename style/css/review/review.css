@@ -1,39 +1,41 @@
-.content {
+.post-container {
     width: 60%;
     margin: 0 auto;
-    position: relative;
-    top: 12vh;
-}
-
-.add-review {
-    position: relative;
-    top: 9vh;
-    padding: 6px;
-    background-color: blanchedalmond;
-    width: 100%;
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-}
-
-.add-review:hover {
-    color: coral;
+    margin-top: 9vh;
 }
 
 .top-exp-item-container {
+    text-align: center;
+}
+
+.title {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.title button {
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    background-color: orangered;
+    font-weight: 500;
+    color: #fff;
 }
 
 .top-exp-item {
     margin: 20px 0;
     padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: #f0f0f0;
 }
+
+.top-exp-item div {}
 
 .top-exp-item img {
     width: 400px;
@@ -46,9 +48,28 @@
 }
 
 .top-exp-item:hover {
-    scale: 1.1;
+    scale: 1.01;
 }
 
 .top-exp-item:hover a {
     text-decoration: underline;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.stars-container {
+    padding-right: 30px;
+}
+
+.view {
+    font-weight: 400;
+
+}
+
+.stars-container i {
+    color: greenyellow;
 }
