@@ -20,18 +20,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
 </head>
-<script>
-    $(document).ready(function () {
-        $(".login").hide()
-        $("#signin-option").click(function () {
-            window.location.href = 'sigin.html'
-        });
-
-        $("#signup-option").click(function () {
-            window.location.href = 'signup.html'
-        })
-    });
-</script>
 <!--COMMENT PUSH PULL-->
 
 <body>
@@ -43,27 +31,29 @@
                     <img src="./style/images/logo_link.png" alt="" width="162px">
                 </a>
             </div>
-            <div class="search-bar-container">
+
+            <div class="search-bar-container" id="search-box">
                 <img src="./style/images/Search_46px.png" alt="">
                 <div class="input-container searchbox-container">
-                    <input class="fw-5" type="text" name="search-header" id=""
+                    <input class="fw-5" type="text" name="search-header" id="search-input"
                         placeholder="Search your favorite destination">
                 </div>
             </div>
-            <div class="menu">
+
+            <div class=" menu">
                 <ul class="main-menu">
                     <li class="main-menu-item">
                         <a href="index.html" class="fw-5">HOME</a>
                     </li>
 
-                    <li class="main-menu-item">
+                    <li class="main-menu-item main-menu-item--have-sub">
                         <a href="destination.html" class="fw-5">
                             DESTINATION
                         </a>
-                        <ul class="sub-menu">
+                        <ul class="sub-menu sub-menu--destionations">
                             <li><a href="destination_curacao.html">Curacao</a></li>
                             <li><a href="destination_guadeloupe.html">Guadelope</a></li>
-                            <li><a href="destination _jamaica.html">Jamaica</a></li>
+                            <li><a href="destination_jamaica.html">Jamaica</a></li>
                             <li><a href="destination_nhatrang.html">Nha Trang</a></li>
                             <li><a href="destination_london.html">London</a></li>
                             <li><a href="destination_losangeles.html">Los Angeles</a></li>
@@ -72,24 +62,17 @@
                     </li>
 
                     <li class="main-menu-item">
-                        <a href="activities.html" class="fw-5">ACTIVITIES</a>
-                        <ul class="sub-menu">
-                            <li><a href="">Inbound</a></li>
-                            <li><a href="">Outbound</a></li>
-                            <li><a href="">Leisure</a></li>
-                            <li><a href="">Adventure</a></li>
-                            <li><a href="">More</a></li>
-                        </ul>
+                        <a href="" class="fw-5">REVIEW</a>
                     </li>
-                    <li class="main-menu-item">
+                    <li class="main-menu-item ">
                         <a href="aboutUs.html" class="fw-5">ABOUT US</a>
                     </li>
-                    <li class="main-menu-item">
-                        <a href="" class="fw-5">ACCOUNT</a>ousel
+                    <li class="main-menu-item main-menu-item--have-sub">
+                        <a href="" class="fw-5">ACCOUNT</a>
 
                         <ul class="sub-menu">
-                            <li id="signin-option">SIGN-IN</li>
-                            <li id="signup-option">SIGN-UP</li>
+                            <li id="signin-option"><a href="sigin.html">SIGN IN</a></li>
+                            <li id="signup-option"><a href="signup.html">SIGN UP</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -694,6 +677,7 @@
     </div>
     <!-- END: FOOTER -->
     </div>
+    <script src="./js/header_function.js"></script>
 </body>
 
 </html>
