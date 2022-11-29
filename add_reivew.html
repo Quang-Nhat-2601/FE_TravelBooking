@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add your Exeperience</title>
 
-    <link rel="stylesheet" href="style/css/review/review.css">
+    <link rel="stylesheet" href="style/css/review/add-review.css">
     <link rel="stylesheet" href="style/css/reset.css">
     <link rel="stylesheet" href="style/css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,6 +20,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -77,64 +80,54 @@
                     </li>
                 </ul>
             </div>
-        </div><div class="header">
-            <div class="logo-container">
-                <a href="index.html">
-                    <img src="./style/images/logo_link.png" alt="" width="162px">
-                </a>
-            </div>
-
-            <div class="search-bar-container" id="search-box">
-                <img src="./style/images/Search_46px.png" alt="">
-                <div class="input-container searchbox-container">
-                    <input class="fw-5" type="text" name="search-header" id="search-input"
-                        placeholder="Search your favorite destination">
-                </div>
-            </div>
-
-            <div class=" menu">
-                <ul class="main-menu">
-                    <li class="main-menu-item">
-                        <a href="index.html" class="fw-5">HOME</a>
-                    </li>
-
-                    <li class="main-menu-item main-menu-item--have-sub">
-                        <a href="destination.html" class="fw-5">
-                            DESTINATION
-                        </a>
-                        <ul class="sub-menu sub-menu--destionations">
-                            <li><a href="destination_curacao.html">Curacao</a></li>
-                            <li><a href="destination_guadeloupe.html">Guadelope</a></li>
-                            <li><a href="destination_jamaica.html">Jamaica</a></li>
-                            <li><a href="destination_nhatrang.html">Nha Trang</a></li>
-                            <li><a href="destination_london.html">London</a></li>
-                            <li><a href="destination_losangeles.html">Los Angeles</a></li>
-                            <li><a href="destination_banahill.html">Ba Na Hill</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="main-menu-item">
-                        <a href="review.html" class="fw-5">REVIEW</a>
-                    </li>
-                    <li class="main-menu-item ">
-                        <a href="aboutUs.html" class="fw-5">ABOUT US</a>
-                    </li>
-                    <li class="main-menu-item main-menu-item--have-sub">
-                        <a href="" class="fw-5">ACCOUNT</a>
-
-                        <ul class="sub-menu">
-                            <li id="signin-option"><a href="sigin.html">SIGN IN</a></li>
-                            <li id="signup-option"><a href="signup.html">SIGN UP</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
         </div>
         <!-- END: HEADER -->
 
         <!-- BEGIN: CONTENT -->
         <div class="content">
-            
+            <div class="post-container">
+                <div class="title">
+                    <h3>Share Your Exeperience</h3>
+                    <div class="input-container">
+                        <input type="text" name="" id="" placeholder="Where did you go?">
+
+                        <div class="place">
+                            <input type="text" name="" id="" placeholder="Country">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-img-container">
+                    <div class="img-upload">
+                        <div>
+                            <i class="fa-solid fa-upload"></i>
+                            <p>Upload Your Pictures here</p>
+                        </div>
+                    </div>
+
+                    <div class="information">
+                        <h4>How about your trip?</h4>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+
+
+                <div class="feeling-container">
+                    <p>Choose how you feel about this place: </p>
+
+                    <i class="fa-regular fa-face-sad-cry"></i>
+                    <i class="fa-regular fa-face-sad-tear"></i>
+                    <i class="fa-regular fa-face-meh"></i>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <i class="fa-regular fa-face-laugh-squint"></i>
+                </div>
+                
+                <div class="button-conatiner">
+                    <button>SHARE</button>
+                </div>
+            </div>
+
+
         </div>
 
         <!-- BEGIN: FOOTER -->
