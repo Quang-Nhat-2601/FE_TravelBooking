@@ -2,19 +2,18 @@
     font-weight: 500;
 }
 
-a:hover.link__destinationhome--green
-{
+a:hover.link__destinationhome--green {
     color: rgb(0, 173, 0);
     text-decoration: none;
 }
 
-a.link__destinationhome--green
-{
+a.link__destinationhome--green {
     color: white;
     text-decoration: none;
 }
+
 :root {
-    --header-height: 10vh;
+    --header-height: 9vh;
 }
 
 .app {
@@ -101,14 +100,39 @@ a.link__destinationhome--green
     display: flex;
     position: relative;
     float: left;
-    padding: 0 12px;
-    width: 110px;
+    padding: 0 30px;
     align-items: center;
     justify-content: center;
 }
 
+.main-menu-item--have-sub::after {
+    content: "";
+    position: absolute;
+    border: 4px solid;
+    border-color: #333 transparent transparent transparent;
+    top: 50%;
+    right: 10%;
+}
+
+
 .main-menu-item:hover {
     background-color: #ddd;
+}
+
+.main-menu-item:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+}
+
+.main-menu-item:hover .sub-menu--destinations {
+    display: block;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    width: 400px !important;
 }
 
 .sub-menu {
@@ -120,21 +144,22 @@ a.link__destinationhome--green
     text-transform: uppercase;
 }
 
-.main-menu-item:hover .sub-menu {
-    display: block;
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    right: 0;
+.sub-menu--destionations {
+    width: 160px !important;
 }
 
 .sub-menu li {
-    padding: 12px 10px;
+    padding: 12px 14px;
     cursor: pointer;
+    width: 100%;
 }
 
 .sub-menu li:hover {
     background-color: darkgrey;
+}
+
+.sub-menu--destinations {
+    width: 230px !important;
 }
 
 .menu a {
