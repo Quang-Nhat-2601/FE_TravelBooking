@@ -1,5 +1,6 @@
 .content {
     width: 100%;
+    background-image: url(/style/images/beautifulscenery.jpg);
 }
 
 .post-container {
@@ -7,6 +8,8 @@
     margin: 0 auto;
     margin-top: 10vh;
     padding-bottom: 100px;
+    background-color: #fff;
+    padding: 20px 100px;
 }
 
 .title {}
@@ -121,10 +124,10 @@
     width: 50%;
 }
 
-.information input {
+.information textarea {
     font-size: 20px;
-    width: 80%;
-    height: 300px;
+    width: 90%;
+    height: 250px;
 }
 
 .information h4 {
