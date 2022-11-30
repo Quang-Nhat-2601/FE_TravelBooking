@@ -36,10 +36,13 @@
     color: #fff;
     font-size: 60px;
     font-weight: 600;
-    text-shadow: 1px 1px 2px black  ;
+    text-shadow: -3px 4px 13px #000;
     text-decoration: none;
 }
 
+.title:hover a {
+    color: coral;
+}
 
 .sub-title {
     text-align: center;
@@ -47,9 +50,9 @@
 
 .form-container {
     /* padding-top: 50px; */
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(163, 159, 159, 0.9);
     padding: 40px 60px;
-    border-radius: 66px;
+    border-radius: 10px;
 }
 
 .input-field {
@@ -60,14 +63,14 @@
 .input-field input[type='number'],
 .input-field input[type='password'] {
     height: 40px;
-    background-color: #faefef;
-    border-radius: 10px;
-    border-color: #faefef;
-
-    
+    border-radius: 2px;
+    border-color: #fff;
     padding-left: 8px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid;
+    border-color: transparent transparent black transparent;
+    background-color: transparent;
 }
 
 .input-field label {
@@ -130,4 +133,8 @@ input[type='submit'] {
     text-transform: uppercase;
     font-weight: 600;
     transition: .5s;
+}
+
+label {
+    color: #fff;
 }
